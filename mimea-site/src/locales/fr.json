@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "impact": "Impact",
+    "transparency": "Transparence",
+    "support": "Soutenir",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Développement durable par création de valeur locale en Afrique",
+    "subtitle": "Nous promouvons des moyens de subsistance résilients au climat, la sécurité alimentaire et la conservation de la nature à travers des projets intégrés portés par les communautés",
+    "cta1": "Découvrir les projets",
+    "cta2": "Soutenir maintenant"
+  },
+  "stats": {
+    "households": "Ménages touchés",
+    "schools": "Écoles impliquées",
+    "projects": "Projets actifs",
+    "years": "Années d'expérience"
+  },
+  "projects": {
+    "title": "Nos Projets",
+    "lumo": {
+      "title": "Project Lumo+",
+      "description": "Tourisme de conservation & moyens de subsistance communautaires",
+      "learnMore": "En savoir plus →"
+    },
+    "moringa": {
+      "title": "Chaîne de Valeur Complète Moringa",
+      "description": "Agriculture résiliente au climat, eau potable & éducation",
+      "learnMore": "En savoir plus →"
+    }
+  },
+  "trust": {
+    "title": "Signaux de Confiance",
+    "nonprofit": "Reconnu d'utilité publique - Canton de Zurich",
+    "transparency": "Transparence garantie - Rapports annuels & budgets",
+    "partners": "Partenaires"
+  },
+  "about": {
+    "title": "À propos de Mimea Impact",
+    "intro": "Mimea Impact est une association suisse d'utilité publique fondée en 2020, dédiée au développement durable en Afrique de l'Est. Nous croyons en une approche intégrée qui combine développement communautaire, sécurité alimentaire, conservation de la nature et résilience climatique.",
+    "introText": "Notre travail est guidé par des principes scientifiques rigoureux, une appropriation locale forte et une transparence totale. Nous collaborons étroitement avec les communautés locales, les institutions académiques et les organisations partenaires pour créer un impact durable et mesurable.",
+    "mission": "Mission & Vision",
+    "missionText": "Nous travaillons exclusivement en Afrique et ne poursuivons aucun intérêt commercial",
+    "values": "Nos Valeurs",
+    "value1": "Utilité publique & Désintéressement",
+    "value2": "Appropriation locale",
+    "value3": "Fondement scientifique",
+    "value4": "Transparence & Responsabilité",
+    "board": "Comité",
+    "boardIntro": "Notre comité apporte une expertise diversifiée en gouvernance, droit et gestion de projets internationaux.",
+    "boardMembers": {
+      "president": "Evelyn Graf",
+      "presidentRole": "Présidente",
+      "member1": "Charly Landry, lic. iur.",
+      "member1Role": "Membre du comité",
+      "member2": "Thomas Wegmann",
+      "member2Role": "Membre du comité"
+    },
+    "team": "Équipe Projet",
+    "teamIntro": "Notre équipe terrain combine expertise académique et connaissance locale approfondie pour une mise en œuvre efficace et culturellement adaptée.",
+    "teamMember1": {
+      "name": "Fabrice Volken, MSc ETH",
+      "role": "Responsable de programme",
+      "bio": "Fabrice est titulaire d'un Master en sciences naturelles appliquées de l'ETH Zurich. Entrepreneur social passionné, il a développé une expertise unique en développement rural intégré en Afrique de l'Est. Fort de plusieurs années d'expérience terrain au Kenya, il coordonne l'ensemble des programmes de Mimea Impact et maintient les relations stratégiques avec nos partenaires locaux et internationaux."
+    },
+    "teamMember2": {
+      "name": "Esther Mrabu",
+      "role": "Coordinatrice de terrain Kenya",
+      "bio": "Esther apporte plus de 8 années d'expérience en mobilisation communautaire et coordination de projets agricoles dans le comté de Kilifi. Originaire de la région, elle possède une compréhension profonde des dynamiques locales, des langues et des traditions. Son réseau étendu et sa capacité à établir la confiance avec les communautés sont essentiels au succès de nos interventions."
+    },
+    "legal": "Forme Juridique",
+    "legalText": "Association selon art. 60 ss CC | Siège: Adliswil, Zurich | Reconnue d'utilité publique"
+  },
+  "projectDetail": {
+    "location": "Localisation",
+    "duration": "Durée",
+    "budget": "Budget",
+    "challenge": "Défi",
+    "approach": "Notre Approche",
+    "impact": "Impact Attendu",
+    "partners": "Partenaires",
+    "scientific": "Base Scientifique",
+    "download": "Télécharger",
+    "fullProposal": "Proposition complète (EN)",
+    "budgetSummary": "Résumé du budget"
+  },
+  "lumoDetail": {
+    "title": "Lumo+ | Tourisme de conservation & Développement communautaire",
+    "location": "Lumo Conservancy, Comté de Taita-Taveta, Kenya",
+    "duration": "4 ans",
+    "budget": "CHF 250'000",
+    "challengeText": "Les communautés vivant à proximité des zones de conservation font face à des conflits homme-faune et un manque d'opportunités économiques.",
+    "pillar1": "Nyanda Expeditions (Safaris)",
+    "pillar2": "Nyanda Eco Lodge (Infrastructure)",
+    "pillar3": "Moyens de subsistance communautaires (Tournesol, Boulangerie, Abeilles)",
+    "impact1": "50-60 emplois locaux",
+    "impact2": "Diversification des revenus",
+    "impact3": "Coexistence homme-faune",
+    "impact4": "Croissance des revenus: CHF 20'000 → 180'000",
+    "partner1": "Lumo Community",
+    "partner2": "Mwalua Wildlife Trust (reconnu UNESCO)",
+    "partner3": "Kilifi Moringa Estate (partenaire Banque Mondiale)"
+  },
+  "moringaDetail": {
+    "title": "Chaîne de Valeur Complète Moringa | Climat, Nutrition, Eau & Éducation",
+    "location": "Sous-comté de Ganze, Comté de Kilifi, Kenya",
+    "duration": "4 ans",
+    "budget": "CHF 415'000",
+    "challengeText": "Changement climatique, insécurité alimentaire et eau contaminée menacent les communautés rurales.",
+    "componentA": "Agriculture résiliente au climat (Double culture Moringa + Crédits carbone)",
+    "componentB": "Santé des sols (Biodigesteur)",
+    "componentC": "Nutrition & Réduction de la stigmatisation",
+    "componentD": "Eau potable propre (Purification Moringa, 10 réservoirs)",
+    "componentE": "Laboratoire appliqué (Assurance qualité & Éducation)",
+    "componentF": "Éducation pratique (12 écoles)",
+    "impact1": "2'500 ménages",
+    "impact2": "12 écoles",
+    "impact3": "10 points d'accès à l'eau",
+    "impact4": "Potentiel de crédits carbone",
+    "partner1": "Kilifi Moringa Estate (Partenaire stratégique Banque Mondiale, financé DEG)",
+    "partner2": "KEFRI (Institut de recherche forestière du Kenya)",
+    "partner3": "Université Pwani (MOU)",
+    "partner4": "Moringa Technologies (Collaboration Prof. Makkar/Becker)"
+  },
+  "impactPage": {
+    "title": "Notre Impact",
+    "subtitle": "Nous mesurons ce qui compte - de manière pragmatique et transparente",
+    "social": "Indicateurs Sociaux",
+    "socialDesc": "Emplois, Formation, Revenus",
+    "environmental": "Indicateurs Environnementaux",
+    "environmentalDesc": "Ruches, Qualité de l'eau",
+    "operational": "Indicateurs Opérationnels",
+    "operationalDesc": "Opérations Safari, Performance budgétaire"
+  },
+  "transparencyPage": {
+    "title": "Transparence",
+    "governance": "Gouvernance",
+    "statutes": "Statuts",
+    "regulations": "Règlement",
+    "foundingProtocol": "Protocole de fondation",
+    "finances": "Finances",
+    "activityConcept": "Concept d'activité & Budget",
+    "annualReport": "Rapport annuel",
+    "taxExemption": "Exonération fiscale",
+    "taxStatus": "Statut: Demande déposée auprès de l'administration fiscale de Zurich",
+    "conflicts": "Partenaires & Conflits d'intérêts",
+    "conflictsText": "Nous tenons un registre conformément à l'art. 6 des Statuts",
+    "compliance": "Contrôle & Conformité",
+    "procurement": "Politique d'approvisionnement",
+    "anticorruption": "Politique anti-corruption",
+    "safeguarding": "Normes de protection"
+  },
+  "supportPage": {
+    "title": "Soutenir",
+    "directDonation": "Faire un don direct",
+    "partnership": "Partenariat",
+    "partnershipText": "Vous souhaitez soutenir de manière ciblée?",
+    "partnershipCTA": "Organiser un entretien",
+    "whySupport": "Pourquoi Mimea Impact?",
+    "reason1": "Fondé scientifiquement",
+    "reason2": "Ancré localement",
+    "reason3": "Transparent & responsable",
+    "reason4": "Durable (pas de dépendance aux subventions)",
+    "donationOptions": {
+      "free": "Don libre",
+      "lumo": "Project Lumo+",
+      "moringa": "Moringa",
+      "water": "Eau",
+      "education": "Éducation"
+    },
+    "taxDeduction": "Mimea Impact est reconnu d'utilité publique"
+  },
+  "footer": {
+    "description": "Organisation de développement durable reconnue d'utilité publique, œuvrant pour la résilience des populations rurales en Afrique de l'Est.",
+    "address": "Mimea Impact\nWebereistrasse 59\n8134 Adliswil\nSuisse",
+    "quickLinks": "Liens Rapides",
+    "legal": "Mentions Légales",
+    "privacy": "Protection des données",
+    "statutes": "Statuts",
+    "newsletter": "Restez informé",
+    "newsletterText": "Recevez des nouvelles sur nos progrès",
+    "emailPlaceholder": "votre@email.com",
+    "trustSignals": {
+      "nonprofit": "Reconnu d'utilité publique",
+      "swiss": "Siège en Suisse",
+      "transparent": "Transparent & responsable"
+    }
+  }
+}

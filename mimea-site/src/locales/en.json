@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "impact": "Impact",
+    "transparency": "Transparency",
+    "support": "Support",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Sustainable Development through Local Value Creation in Africa",
+    "subtitle": "We promote climate-resilient livelihoods, food security and nature conservation through integrated, community-led projects",
+    "cta1": "Discover projects",
+    "cta2": "Support now"
+  },
+  "stats": {
+    "households": "Households reached",
+    "schools": "Schools involved",
+    "projects": "Active projects",
+    "years": "Years of experience"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "lumo": {
+      "title": "Project Lumo+",
+      "description": "Conservation tourism & community livelihoods",
+      "learnMore": "Learn more →"
+    },
+    "moringa": {
+      "title": "Moringa Whole Value Chain",
+      "description": "Climate-resilient agriculture, drinking water & education",
+      "learnMore": "Learn more →"
+    }
+  },
+  "trust": {
+    "title": "Trust Signals",
+    "nonprofit": "Non-profit recognized - Canton of Zurich",
+    "transparency": "Transparency guaranteed - Annual reports & budgets",
+    "partners": "Partners"
+  },
+  "about": {
+    "title": "About Mimea Impact",
+    "intro": "Mimea Impact is a Swiss non-profit association founded in 2020, dedicated to sustainable development in East Africa. We believe in an integrated approach that combines community development, food security, nature conservation, and climate resilience.",
+    "introText": "Our work is guided by rigorous scientific principles, strong local ownership, and complete transparency. We collaborate closely with local communities, academic institutions, and partner organizations to create sustainable and measurable impact.",
+    "mission": "Mission & Vision",
+    "missionText": "We work exclusively in Africa and pursue no commercial interests",
+    "values": "Our Values",
+    "value1": "Non-profit & Selflessness",
+    "value2": "Local Ownership",
+    "value3": "Scientific Foundation",
+    "value4": "Transparency & Accountability",
+    "board": "Board",
+    "boardIntro": "Our board brings diverse expertise in governance, law, and international project management.",
+    "boardMembers": {
+      "president": "Evelyn Graf",
+      "presidentRole": "President",
+      "member1": "Charly Landry, lic. iur.",
+      "member1Role": "Board Member",
+      "member2": "Thomas Wegmann",
+      "member2Role": "Board Member"
+    },
+    "team": "Project Team",
+    "teamIntro": "Our field team combines academic expertise with deep local knowledge for effective and culturally adapted implementation.",
+    "teamMember1": {
+      "name": "Fabrice Volken, MSc ETH",
+      "role": "Programme Manager",
+      "bio": "Fabrice holds a Master's degree in Applied Natural Sciences from ETH Zurich. As a passionate social entrepreneur, he has developed unique expertise in integrated rural development in East Africa. With several years of field experience in Kenya, he coordinates all Mimea Impact programmes and maintains strategic relationships with our local and international partners."
+    },
+    "teamMember2": {
+      "name": "Esther Mrabu",
+      "role": "Field Coordinator Kenya",
+      "bio": "Esther brings over 8 years of experience in community mobilization and agricultural project coordination in Kilifi County. A native of the region, she has a deep understanding of local dynamics, languages, and traditions. Her extensive network and ability to build trust with communities are essential to the success of our interventions."
+    },
+    "legal": "Legal Form",
+    "legalText": "Association under Art. 60 ff. Swiss Civil Code | Headquarters: Adliswil, Zurich | Non-profit recognized"
+  },
+  "projectDetail": {
+    "location": "Location",
+    "duration": "Duration",
+    "budget": "Budget",
+    "challenge": "Challenge",
+    "approach": "Our Approach",
+    "impact": "Expected Impact",
+    "partners": "Partners",
+    "scientific": "Scientific Basis",
+    "download": "Download",
+    "fullProposal": "Full Proposal (EN)",
+    "budgetSummary": "Budget Summary"
+  },
+  "lumoDetail": {
+    "title": "Lumo+ | Conservation Tourism & Community Development",
+    "location": "Lumo Conservancy, Taita-Taveta County, Kenya",
+    "duration": "4 years",
+    "budget": "CHF 250'000",
+    "challengeText": "Communities near conservation areas face human-wildlife conflicts and lack of economic opportunities.",
+    "pillar1": "Nyanda Expeditions (Safaris)",
+    "pillar2": "Nyanda Eco Lodge (Infrastructure)",
+    "pillar3": "Community Livelihood (Sunflower, Bakery, Bees)",
+    "impact1": "50-60 local jobs",
+    "impact2": "Income diversification",
+    "impact3": "Human-wildlife coexistence",
+    "impact4": "Revenue scaling: CHF 20'000 → 180'000",
+    "partner1": "Lumo Community",
+    "partner2": "Mwalua Wildlife Trust (UNESCO recognized)",
+    "partner3": "Kilifi Moringa Estate (World Bank Partner)"
+  },
+  "moringaDetail": {
+    "title": "Moringa Whole Value Chain | Climate, Nutrition, Water & Education",
+    "location": "Ganze Sub-County, Kilifi County, Kenya",
+    "duration": "4 years",
+    "budget": "CHF 415'000",
+    "challengeText": "Climate change, food insecurity and contaminated water threaten rural communities.",
+    "componentA": "Climate-resilient agriculture (Moringa Dual Cropping + Carbon Credits)",
+    "componentB": "Soil health (Biodigester)",
+    "componentC": "Nutrition & Stigma reduction",
+    "componentD": "Clean drinking water (Moringa purification, 10 reservoirs)",
+    "componentE": "Applied laboratory (Quality assurance & Education)",
+    "componentF": "Practical education (12 schools)",
+    "impact1": "2'500 households",
+    "impact2": "12 schools",
+    "impact3": "10 water access points",
+    "impact4": "Carbon credit potential",
+    "partner1": "Kilifi Moringa Estate (World Bank Strategic Partner, DEG-financed)",
+    "partner2": "KEFRI (Kenya Forest Research Institute)",
+    "partner3": "Pwani University (MOU)",
+    "partner4": "Moringa Technologies (Prof. Makkar/Becker Collaboration)"
+  },
+  "impactPage": {
+    "title": "Our Impact",
+    "subtitle": "We measure what matters - pragmatically and transparently",
+    "social": "Social Indicators",
+    "socialDesc": "Jobs, Training, Income",
+    "environmental": "Environmental Indicators",
+    "environmentalDesc": "Beehives, Water quality",
+    "operational": "Operational Indicators",
+    "operationalDesc": "Safari operations, Budget performance"
+  },
+  "transparencyPage": {
+    "title": "Transparency",
+    "governance": "Governance",
+    "statutes": "Statutes",
+    "regulations": "Regulations",
+    "foundingProtocol": "Founding protocol",
+    "finances": "Finances",
+    "activityConcept": "Activity concept & Budget",
+    "annualReport": "Annual report",
+    "taxExemption": "Tax exemption",
+    "taxStatus": "Status: Application submitted to Zurich Tax Office",
+    "conflicts": "Partners & Conflicts of interest",
+    "conflictsText": "We maintain a register in accordance with Art. 6 Statutes",
+    "compliance": "Control & Compliance",
+    "procurement": "Procurement policy",
+    "anticorruption": "Anti-corruption policy",
+    "safeguarding": "Safeguarding standards"
+  },
+  "supportPage": {
+    "title": "Support",
+    "directDonation": "Donate directly",
+    "partnership": "Partnership",
+    "partnershipText": "Would you like to support specifically?",
+    "partnershipCTA": "Schedule a conversation",
+    "whySupport": "Why Mimea Impact?",
+    "reason1": "Scientifically founded",
+    "reason2": "Locally anchored",
+    "reason3": "Transparent & accountable",
+    "reason4": "Sustainably designed (no grant dependency)",
+    "donationOptions": {
+      "free": "Free donation",
+      "lumo": "Project Lumo+",
+      "moringa": "Moringa",
+      "water": "Water",
+      "education": "Education"
+    },
+    "taxDeduction": "Mimea Impact is recognized as non-profit"
+  },
+  "footer": {
+    "description": "Non-profit sustainable development organization working for the resilience of rural populations in East Africa.",
+    "address": "Mimea Impact\nWebereistrasse 59\n8134 Adliswil\nSwitzerland",
+    "quickLinks": "Quick Links",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "statutes": "Statutes",
+    "newsletter": "Stay informed",
+    "newsletterText": "Receive updates on our project progress",
+    "emailPlaceholder": "your@email.com",
+    "trustSignals": {
+      "nonprofit": "Non-profit recognized",
+      "swiss": "Based in Switzerland",
+      "transparent": "Transparent & accountable"
+    }
+  }
+}
