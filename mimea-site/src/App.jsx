@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import LumoProject from './pages/LumoProject';
 import MoringaProject from './pages/MoringaProject';
 import Support from './pages/Support';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/projects/lumo" element={<LumoProject />} />
           <Route path="/projects/moringa" element={<MoringaProject />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </BrowserRouter>

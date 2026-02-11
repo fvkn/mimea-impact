@@ -164,10 +164,38 @@ const Home = () => {
           <div className="text-center">
             <p className="text-sm text-gray-500 uppercase tracking-wider font-bold mb-6">{t('trust.partners')}</p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <span className="text-xl font-bold text-gray-700">World Bank</span>
-              <span className="text-xl font-bold text-gray-700">UNESCO</span>
-              <span className="text-xl font-bold text-gray-700">KEFRI</span>
-              <span className="text-xl font-bold text-gray-700">Pwani University</span>
+              <a
+                href="https://kilifimoringa.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl font-bold text-gray-700 hover:text-[#D4A056] hover:opacity-100 transition-all"
+              >
+                Kilifi Moringa Estate
+              </a>
+              <a
+                href="https://www.instagram.com/mwaluawildlife/?hl=fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl font-bold text-gray-700 hover:text-[#D4A056] hover:opacity-100 transition-all"
+              >
+                Mwalua Wildlife Trust
+              </a>
+              <a
+                href="https://www.kefri.org/home.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl font-bold text-gray-700 hover:text-[#D4A056] hover:opacity-100 transition-all"
+              >
+                KEFRI
+              </a>
+              <a
+                href="https://www.pu.ac.ke/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl font-bold text-gray-700 hover:text-[#D4A056] hover:opacity-100 transition-all"
+              >
+                Pwani University
+              </a>
             </div>
           </div>
         </div>

@@ -63,20 +63,35 @@ const MoringaProject = () => {
         </div>
       </section>
 
-      {/* Challenge Section */}
+      {/* Le Problème / Introduction */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-6">{t('projectDetail.challenge')}</h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            {t('moringaDetail.challengeText')}
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-6">{t('moringaDetail.challengeTitle')}</h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            {t('moringaDetail.challengePara1')}
           </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            {t('moringaDetail.challengePara2')}
+          </p>
+          <div className="bg-[#F9F8F4] border-l-4 border-[#D4A056] p-6 rounded-lg">
+            <p className="text-[#2C4A3B] font-semibold mb-2">{t('moringaDetail.challengeBoxTitle')}</p>
+            <p className="text-gray-700">
+              {t('moringaDetail.challengeBoxText')}
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Approach - Six Components */}
       <section className="py-16 bg-[#F9F8F4]">
         <div className="container mx-auto px-6 max-w-5xl">
-          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-8">{t('projectDetail.approach')}</h2>
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('moringaDetail.approachTitle')}</h2>
+          <p className="text-gray-700 mb-4 max-w-3xl mx-auto">
+            {t('moringaDetail.approachSubtitle')}
+          </p>
+          <p className="text-[#D4A056] font-semibold mb-8 max-w-3xl mx-auto">
+            {t('moringaDetail.approachHighlight')}
+          </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <div className="flex items-start gap-4">
@@ -85,6 +100,7 @@ const MoringaProject = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2C4A3B] mb-2">A. {t('moringaDetail.componentA')}</h3>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentADesc')}</p>
                 </div>
               </div>
             </div>
@@ -96,6 +112,7 @@ const MoringaProject = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2C4A3B] mb-2">B. {t('moringaDetail.componentB')}</h3>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentBDesc')}</p>
                 </div>
               </div>
             </div>
@@ -107,6 +124,7 @@ const MoringaProject = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2C4A3B] mb-2">C. {t('moringaDetail.componentC')}</h3>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentCDesc')}</p>
                 </div>
               </div>
             </div>
@@ -118,6 +136,7 @@ const MoringaProject = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2C4A3B] mb-2">D. {t('moringaDetail.componentD')}</h3>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentDDesc')}</p>
                 </div>
               </div>
             </div>
@@ -129,6 +148,7 @@ const MoringaProject = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2C4A3B] mb-2">E. {t('moringaDetail.componentE')}</h3>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentEDesc')}</p>
                 </div>
               </div>
             </div>
@@ -140,6 +160,7 @@ const MoringaProject = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#2C4A3B] mb-2">F. {t('moringaDetail.componentF')}</h3>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentFDesc')}</p>
                 </div>
               </div>
             </div>
@@ -150,33 +171,77 @@ const MoringaProject = () => {
       {/* Expected Impact */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-8">{t('projectDetail.impact')}</h2>
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('moringaDetail.impactTitle')}</h2>
+          <p className="text-gray-700 mb-8 leading-relaxed">
+            {t('moringaDetail.impactIntro')}
+          </p>
+
+          <div className="bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white p-8 rounded-xl mb-8">
+            <div className="grid md:grid-cols-3 gap-6">
+              <div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">2'500</div>
+                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactHouseholds')}</div>
+                <div className="text-sm opacity-80">{t('moringaDetail.impactHouseholdsDetail')}</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">12</div>
+                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactSchools')}</div>
+                <div className="text-sm opacity-80">{t('moringaDetail.impactSchoolsDetail')}</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">10</div>
+                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactWater')}</div>
+                <div className="text-sm opacity-80">{t('moringaDetail.impactWaterDetail')}</div>
+              </div>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-6">
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('moringaDetail.impact1')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact1Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('moringaDetail.impact1Text')}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('moringaDetail.impact2')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact2Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('moringaDetail.impact2Text')}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('moringaDetail.impact3')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact3Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('moringaDetail.impact3Text')}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('moringaDetail.impact4')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact4Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('moringaDetail.impact4Text')}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
+              <div>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact5Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('moringaDetail.impact5Text')}</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
+              <div>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact6Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('moringaDetail.impact6Text')}</p>
               </div>
             </div>
           </div>
@@ -214,12 +279,12 @@ const MoringaProject = () => {
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white">
         <div className="container mx-auto px-6 text-center max-w-3xl">
-          <h2 className="text-3xl font-bold mb-4">Soutenez le Projet Moringa</h2>
+          <h2 className="text-3xl font-bold mb-4">{t('moringaDetail.ctaTitle')}</h2>
           <p className="text-lg mb-8 opacity-90">
-            Votre contribution aide à construire la résilience climatique, améliorer la nutrition et garantir l'accès à l'eau potable pour 2'500 ménages.
+            {t('moringaDetail.ctaText')}
           </p>
           <Link to="/support" className="inline-block bg-[#D4A056] text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-all">
-            Faire un don maintenant
+            {t('moringaDetail.ctaButton')}
           </Link>
         </div>
       </section>

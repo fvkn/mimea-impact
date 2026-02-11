@@ -142,7 +142,7 @@ const Layout = ({ children }) => {
               <ul className="space-y-2 text-sm opacity-80">
                 <li><Link to="/about" className="hover:text-ochre transition-colors">{t('nav.about')}</Link></li>
                 <li><Link to="/projects" className="hover:text-ochre transition-colors">{t('nav.projects')}</Link></li>
-                <li><a href="#contact" className="hover:text-ochre transition-colors">{t('nav.contact')}</a></li>
+                <li><Link to="/contact" className="hover:text-ochre transition-colors">{t('nav.contact')}</Link></li>
               </ul>
             </div>
 

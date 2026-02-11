@@ -63,34 +63,34 @@ const LumoProject = () => {
         </div>
       </section>
 
-      {/* Introduction Section */}
-      <section className="py-12 bg-gradient-to-b from-white to-[#F9F8F4]">
-        <div className="container mx-auto px-6 max-w-4xl">
-          <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            <span className="font-bold text-[#2C4A3B]">Lumo+</span> lie les moyens de subsistance communautaires, la conservation de la faune et le tourisme durable au Kenya. Une initiative intégrée qui transforme les défis de coexistence en opportunités économiques.
-          </p>
-        </div>
-      </section>
-
-      {/* Challenge Section */}
+      {/* Le Problème / Introduction */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-6">{t('projectDetail.challenge')}</h2>
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-6">{t('lumoDetail.challengeTitle')}</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            {t('lumoDetail.challengeText')}
+            {t('lumoDetail.challengePara1')}
           </p>
-          <p className="text-gray-600 leading-relaxed">
-            Les communautés supportent les coûts sociaux et économiques de la protection de la faune, tout en bénéficiant peu des revenus du tourisme.
+          <p className="text-gray-700 leading-relaxed mb-4">
+            {t('lumoDetail.challengePara2')}
           </p>
+          <div className="bg-[#F9F8F4] border-l-4 border-[#D4A056] p-6 rounded-lg">
+            <p className="text-[#2C4A3B] font-semibold mb-2">{t('lumoDetail.challengeBoxTitle')}</p>
+            <p className="text-gray-700">
+              {t('lumoDetail.challengeBoxText')}
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Approach - Three Pillars */}
       <section className="py-16 bg-[#F9F8F4]">
         <div className="container mx-auto px-6 max-w-5xl">
-          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4 text-center">Une approche intégrée en trois piliers</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            Chaque pilier génère des revenus et renforce la durabilité à long terme
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4 text-center">{t('lumoDetail.approachTitle')}</h2>
+          <p className="text-center text-gray-600 mb-4 max-w-3xl mx-auto">
+            {t('lumoDetail.approachSubtitle')}
+          </p>
+          <p className="text-center text-[#D4A056] font-semibold mb-12 max-w-3xl mx-auto">
+            {t('lumoDetail.approachHighlight')}
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
@@ -98,8 +98,11 @@ const LumoProject = () => {
                 <span className="text-2xl font-bold text-[#2C4A3B]">1</span>
               </div>
               <h3 className="font-bold text-[#2C4A3B] mb-3 text-lg">{t('lumoDetail.pillar1')}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Opérations générant revenus et emplois dès la première phase, dirigées par un ranger expérimenté et primé
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                {t('lumoDetail.pillar1Desc')}
+              </p>
+              <p className="text-[#2C4A3B] text-sm font-semibold">
+                {t('lumoDetail.pillar1Benefits')}
               </p>
             </div>
 
@@ -108,8 +111,11 @@ const LumoProject = () => {
                 <span className="text-2xl font-bold text-[#D4A056]">2</span>
               </div>
               <h3 className="font-bold text-[#2C4A3B] mb-3 text-lg">{t('lumoDetail.pillar2')}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Lodge à faible impact environnemental avec énergies renouvelables, récupération d'eau et élimination du plastique
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                {t('lumoDetail.pillar2Desc')}
+              </p>
+              <p className="text-[#D4A056] text-sm font-semibold">
+                {t('lumoDetail.pillar2Benefits')}
               </p>
             </div>
 
@@ -118,8 +124,11 @@ const LumoProject = () => {
                 <span className="text-2xl font-bold text-[#2C4A3B]">3</span>
               </div>
               <h3 className="font-bold text-[#2C4A3B] mb-3 text-lg">{t('lumoDetail.pillar3')}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Culture de tournesol, boulangerie communautaire et apiculture pour la sécurité alimentaire et la coexistence avec la faune
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                {t('lumoDetail.pillar3Desc')}
+              </p>
+              <p className="text-[#2C4A3B] text-sm font-semibold">
+                {t('lumoDetail.pillar3Benefits')}
               </p>
             </div>
           </div>
@@ -129,33 +138,56 @@ const LumoProject = () => {
       {/* Expected Impact */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-8">{t('projectDetail.impact')}</h2>
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('lumoDetail.impactTitle')}</h2>
+          <p className="text-gray-700 mb-8 leading-relaxed">
+            {t('lumoDetail.impactIntro')}
+          </p>
+
+          <div className="bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white p-8 rounded-xl mb-8">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">50-60</div>
+                <div className="text-lg font-semibold mb-1">{t('lumoDetail.impactJobs')}</div>
+                <div className="text-sm opacity-80">{t('lumoDetail.impactJobsDetail')}</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">×9</div>
+                <div className="text-lg font-semibold mb-1">{t('lumoDetail.impactRevenue')}</div>
+                <div className="text-sm opacity-80">{t('lumoDetail.impactRevenueDetail')}</div>
+              </div>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-6">
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('lumoDetail.impact1')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('lumoDetail.impact1Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('lumoDetail.impact1Text')}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('lumoDetail.impact2')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('lumoDetail.impact2Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('lumoDetail.impact2Text')}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('lumoDetail.impact3')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('lumoDetail.impact3Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('lumoDetail.impact3Text')}</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={24} />
+              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
               <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-1">{t('lumoDetail.impact4')}</h4>
+                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('lumoDetail.impact4Title')}</h4>
+                <p className="text-gray-600 text-sm">{t('lumoDetail.impact4Text')}</p>
               </div>
             </div>
           </div>
@@ -194,12 +226,12 @@ const LumoProject = () => {
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white">
         <div className="container mx-auto px-6 text-center max-w-3xl">
-          <h2 className="text-3xl font-bold mb-4">Soutenez le Project Lumo+</h2>
+          <h2 className="text-3xl font-bold mb-4">{t('lumoDetail.ctaTitle')}</h2>
           <p className="text-lg mb-8 opacity-90">
-            Votre soutien permet de créer des emplois locaux durables et de promouvoir la coexistence harmonieuse entre les communautés et la faune.
+            {t('lumoDetail.ctaText')}
           </p>
           <Link to="/support" className="inline-block bg-[#D4A056] text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-all">
-            Faire un don maintenant
+            {t('lumoDetail.ctaButton')}
           </Link>
         </div>
       </section>
