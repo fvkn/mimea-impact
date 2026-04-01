@@ -121,11 +121,7 @@ const About = () => {
             {/* Fabrice */}
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
               <div className="flex items-start gap-6">
-                <div className="w-24 h-24 bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-3xl font-bold text-white">
-                    {t('about.teamMember1.name').charAt(0)}
-                  </span>
-                </div>
+                <img src="/fabrice.jpg" alt={t('about.teamMember1.name')} className="w-24 h-24 rounded-full object-cover flex-shrink-0" />
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-[#2C4A3B] mb-1">
                     {t('about.teamMember1.name')}
@@ -143,11 +139,7 @@ const About = () => {
             {/* Esther */}
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
               <div className="flex items-start gap-6">
-                <div className="w-24 h-24 bg-gradient-to-br from-[#D4A056] to-[#b8854a] rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-3xl font-bold text-white">
-                    {t('about.teamMember2.name').charAt(0)}
-                  </span>
-                </div>
+                <img src="/esther.jpg" alt={t('about.teamMember2.name')} className="w-24 h-24 rounded-full object-cover flex-shrink-0" />
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-[#2C4A3B] mb-1">
                     {t('about.teamMember2.name')}

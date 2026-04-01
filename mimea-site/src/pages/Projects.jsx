@@ -22,7 +22,7 @@ const Projects = () => {
             <Link to="/projects/lumo" className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group cursor-pointer">
               <div className="h-64 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=2071&auto=format&fit=crop"
+                  src="/ecolodge.jpg"
                   alt="Lumo Project"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -52,7 +52,7 @@ const Projects = () => {
                 <h3 className="text-2xl font-bold text-[#2C4A3B] mb-3">{t('projects.moringa.title')}</h3>
                 <p className="text-gray-600 mb-6">{t('projects.moringa.description')}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm font-bold text-[#D4A056]">CHF 415'000</span>
+                  <span className="text-sm font-bold text-[#D4A056]">CHF 150'000</span>
                   <span className="flex items-center gap-2 text-[#2C4A3B] font-bold group-hover:text-[#D4A056] transition-colors">
                     {t('projects.moringa.learnMore')}
                   </span>

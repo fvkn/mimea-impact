@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { MapPin, Calendar, DollarSign, Users, Droplets, Sprout, School, Award, CheckCircle } from 'lucide-react';
+import { MapPin, Calendar, DollarSign, Users, Wheat, Heart, Drumstick, Flame, Leaf, CheckCircle, Award, ArrowRight, Recycle } from 'lucide-react';
 
 const MoringaProject = () => {
   const { t } = useTranslation();
@@ -63,16 +63,33 @@ const MoringaProject = () => {
         </div>
       </section>
 
-      {/* Le Problème / Introduction */}
+      {/* The Challenge */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-6">{t('moringaDetail.challengeTitle')}</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
             {t('moringaDetail.challengePara1')}
           </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
+          <p className="text-gray-700 leading-relaxed mb-6">
             {t('moringaDetail.challengePara2')}
           </p>
+
+          {/* Challenge Stats */}
+          <div className="grid md:grid-cols-3 gap-4 mb-6">
+            <div className="bg-[#F9F8F4] p-5 rounded-lg text-center">
+              <div className="text-3xl font-bold text-[#D4A056] mb-1">30%+</div>
+              <div className="text-sm text-gray-700">{t('moringaDetail.statStunting')}</div>
+            </div>
+            <div className="bg-[#F9F8F4] p-5 rounded-lg text-center">
+              <div className="text-3xl font-bold text-[#D4A056] mb-1">47.5%</div>
+              <div className="text-sm text-gray-700">{t('moringaDetail.statPoverty')}</div>
+            </div>
+            <div className="bg-[#F9F8F4] p-5 rounded-lg text-center">
+              <div className="text-3xl font-bold text-[#D4A056] mb-1">&lt;10</div>
+              <div className="text-sm text-gray-700">{t('moringaDetail.statProcessing')}</div>
+            </div>
+          </div>
+
           <div className="bg-[#F9F8F4] border-l-4 border-[#D4A056] p-6 rounded-lg">
             <p className="text-[#2C4A3B] font-semibold mb-2">{t('moringaDetail.challengeBoxTitle')}</p>
             <p className="text-gray-700">
@@ -82,85 +99,146 @@ const MoringaProject = () => {
         </div>
       </section>
 
-      {/* Approach - Six Components */}
+      {/* The Circular Economy Approach */}
       <section className="py-16 bg-[#F9F8F4]">
         <div className="container mx-auto px-6 max-w-5xl">
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('moringaDetail.approachTitle')}</h2>
-          <p className="text-gray-700 mb-4 max-w-3xl mx-auto">
+          <p className="text-gray-700 mb-4 max-w-3xl">
             {t('moringaDetail.approachSubtitle')}
           </p>
-          <p className="text-[#D4A056] font-semibold mb-8 max-w-3xl mx-auto">
+          <p className="text-[#D4A056] font-semibold mb-8 max-w-3xl">
             {t('moringaDetail.approachHighlight')}
           </p>
+
+          {/* Circular Flow Diagram */}
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden mb-8">
+            <div className="grid grid-cols-4 gap-0 text-sm font-bold text-[#2C4A3B] bg-[#2C4A3B]/5 p-4">
+              <div>{t('moringaDetail.tableRawMaterial')}</div>
+              <div>{t('moringaDetail.tableProduct')}</div>
+              <div>{t('moringaDetail.tableUse')}</div>
+              <div>{t('moringaDetail.tableByproduct')}</div>
+            </div>
+            {[
+              { key: 'circularRow1' },
+              { key: 'circularRow2' },
+              { key: 'circularRow3' },
+              { key: 'circularRow4' },
+            ].map((row, idx) => (
+              <div key={idx} className={`grid grid-cols-4 gap-0 text-sm p-4 ${idx % 2 === 0 ? 'bg-white' : 'bg-[#F9F8F4]'}`}>
+                <div className="text-gray-700">{t(`moringaDetail.${row.key}Col1`)}</div>
+                <div className="text-gray-700">{t(`moringaDetail.${row.key}Col2`)}</div>
+                <div className="text-gray-700">{t(`moringaDetail.${row.key}Col3`)}</div>
+                <div className="text-gray-700 flex items-center gap-1">
+                  <Recycle size={14} className="text-[#2C4A3B] flex-shrink-0" />
+                  {t(`moringaDetail.${row.key}Col4`)}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Five Packages */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-6 max-w-5xl">
+          <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('moringaDetail.packagesTitle')}</h2>
+          <p className="text-gray-700 mb-8 max-w-3xl">
+            {t('moringaDetail.packagesSubtitle')}
+          </p>
+
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#2C4A3B]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Sprout className="text-[#2C4A3B]" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-2">A. {t('moringaDetail.componentA')}</h3>
-                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentADesc')}</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            {/* Package 1: Child Nutrition */}
+            <div className="bg-[#F9F8F4] p-6 rounded-lg border border-gray-100">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Sprout className="text-[#D4A056]" size={24} />
+                  <Wheat className="text-[#D4A056]" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-2">B. {t('moringaDetail.componentB')}</h3>
-                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentBDesc')}</p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-bold text-[#2C4A3B]">{t('moringaDetail.package1')}</h3>
+                    <span className="text-xs font-bold text-[#D4A056] bg-[#D4A056]/10 px-2 py-0.5 rounded-full">CHF 30'000</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.package1Desc')}</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#2C4A3B]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Users className="text-[#2C4A3B]" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-2">C. {t('moringaDetail.componentC')}</h3>
-                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentCDesc')}</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            {/* Package 2: Women's Empowerment */}
+            <div className="bg-[#F9F8F4] p-6 rounded-lg border border-gray-100">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Droplets className="text-[#D4A056]" size={24} />
+                  <Heart className="text-[#D4A056]" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-2">D. {t('moringaDetail.componentD')}</h3>
-                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentDDesc')}</p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-bold text-[#2C4A3B]">{t('moringaDetail.package2')}</h3>
+                    <span className="text-xs font-bold text-[#D4A056] bg-[#D4A056]/10 px-2 py-0.5 rounded-full">CHF 30'000</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.package2Desc')}</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#2C4A3B]/10 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Award className="text-[#2C4A3B]" size={24} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-2">E. {t('moringaDetail.componentE')}</h3>
-                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentEDesc')}</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            {/* Package 3: Animal Feed */}
+            <div className="bg-[#F9F8F4] p-6 rounded-lg border border-gray-100">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <School className="text-[#D4A056]" size={24} />
+                  <Drumstick className="text-[#D4A056]" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-2">F. {t('moringaDetail.componentF')}</h3>
-                  <p className="text-gray-600 text-sm">{t('moringaDetail.componentFDesc')}</p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-bold text-[#2C4A3B]">{t('moringaDetail.package3')}</h3>
+                    <span className="text-xs font-bold text-[#D4A056] bg-[#D4A056]/10 px-2 py-0.5 rounded-full">CHF 25'000</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.package3Desc')}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Package 4: Community Bakery */}
+            <div className="bg-[#F9F8F4] p-6 rounded-lg border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Flame className="text-[#D4A056]" size={24} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-bold text-[#2C4A3B]">{t('moringaDetail.package4')}</h3>
+                    <span className="text-xs font-bold text-[#D4A056] bg-[#D4A056]/10 px-2 py-0.5 rounded-full">CHF 25'000</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.package4Desc')}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Package 5: Organic Certification */}
+            <div className="bg-[#F9F8F4] p-6 rounded-lg border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Leaf className="text-[#D4A056]" size={24} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-bold text-[#2C4A3B]">{t('moringaDetail.package5')}</h3>
+                    <span className="text-xs font-bold text-[#D4A056] bg-[#D4A056]/10 px-2 py-0.5 rounded-full">CHF 20'000</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.package5Desc')}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Programme Management */}
+            <div className="bg-[#F9F8F4] p-6 rounded-lg border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Users className="text-[#D4A056]" size={24} />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <h3 className="font-bold text-[#2C4A3B]">{t('moringaDetail.packageMgmt')}</h3>
+                    <span className="text-xs font-bold text-[#D4A056] bg-[#D4A056]/10 px-2 py-0.5 rounded-full">CHF 20'000</span>
+                  </div>
+                  <p className="text-gray-600 text-sm">{t('moringaDetail.packageMgmtDesc')}</p>
                 </div>
               </div>
             </div>
@@ -169,7 +247,7 @@ const MoringaProject = () => {
       </section>
 
       {/* Expected Impact */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-[#F9F8F4]">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('moringaDetail.impactTitle')}</h2>
           <p className="text-gray-700 mb-8 leading-relaxed">
@@ -179,19 +257,19 @@ const MoringaProject = () => {
           <div className="bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white p-8 rounded-xl mb-8">
             <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <div className="text-4xl font-bold text-[#D4A056] mb-2">2'500</div>
-                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactHouseholds')}</div>
-                <div className="text-sm opacity-80">{t('moringaDetail.impactHouseholdsDetail')}</div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">~750</div>
+                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactDirect')}</div>
+                <div className="text-sm opacity-80">{t('moringaDetail.impactDirectDetail')}</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-[#D4A056] mb-2">12</div>
-                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactSchools')}</div>
-                <div className="text-sm opacity-80">{t('moringaDetail.impactSchoolsDetail')}</div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">70</div>
+                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactWomen')}</div>
+                <div className="text-sm opacity-80">{t('moringaDetail.impactWomenDetail')}</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-[#D4A056] mb-2">10</div>
-                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactWater')}</div>
-                <div className="text-sm opacity-80">{t('moringaDetail.impactWaterDetail')}</div>
+                <div className="text-4xl font-bold text-[#D4A056] mb-2">400+</div>
+                <div className="text-lg font-semibold mb-1">{t('moringaDetail.impactIndirect')}</div>
+                <div className="text-sm opacity-80">{t('moringaDetail.impactIndirectDetail')}</div>
               </div>
             </div>
           </div>
@@ -228,22 +306,6 @@ const MoringaProject = () => {
                 <p className="text-gray-600 text-sm">{t('moringaDetail.impact4Text')}</p>
               </div>
             </div>
-
-            <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
-              <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact5Title')}</h4>
-                <p className="text-gray-600 text-sm">{t('moringaDetail.impact5Text')}</p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0 mt-1" size={24} />
-              <div>
-                <h4 className="font-bold text-[#2C4A3B] mb-2">{t('moringaDetail.impact6Title')}</h4>
-                <p className="text-gray-600 text-sm">{t('moringaDetail.impact6Text')}</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -255,22 +317,14 @@ const MoringaProject = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <Award className="text-[#D4A056] mb-3" size={32} />
-              <p className="font-bold text-[#2C4A3B]">{t('moringaDetail.partner1')}</p>
+              <p className="font-bold text-[#2C4A3B] mb-1">{t('moringaDetail.partner1')}</p>
+              <p className="text-gray-600 text-sm">{t('moringaDetail.partner1Desc')}</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <Award className="text-[#D4A056] mb-3" size={32} />
-              <p className="font-bold text-[#2C4A3B]">{t('moringaDetail.partner2')}</p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <Award className="text-[#D4A056] mb-3" size={32} />
-              <p className="font-bold text-[#2C4A3B]">{t('moringaDetail.partner3')}</p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <Award className="text-[#D4A056] mb-3" size={32} />
-              <p className="font-bold text-[#2C4A3B]">{t('moringaDetail.partner4')}</p>
+              <p className="font-bold text-[#2C4A3B] mb-1">{t('moringaDetail.partner2')}</p>
+              <p className="text-gray-600 text-sm">{t('moringaDetail.partner2Desc')}</p>
             </div>
           </div>
         </div>

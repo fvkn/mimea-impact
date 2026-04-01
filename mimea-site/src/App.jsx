@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useSearchParams } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -8,9 +10,24 @@ import MoringaProject from './pages/MoringaProject';
 import Support from './pages/Support';
 import Contact from './pages/Contact';
 
+const LanguageHandler = () => {
+  const [searchParams] = useSearchParams();
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const lang = searchParams.get('lang');
+    if (lang && ['fr', 'en', 'de'].includes(lang)) {
+      i18n.changeLanguage(lang);
+    }
+  }, [searchParams, i18n]);
+
+  return null;
+};
+
 const App = () => {
   return (
     <BrowserRouter>
+      <LanguageHandler />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
