@@ -32,7 +32,7 @@ const Contact = () => {
                   <MapPin className="text-[#2C4A3B]" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-3 text-xl">Adresse</h3>
+                  <h3 className="font-bold text-[#2C4A3B] mb-3 text-xl">{t('contactPage.address')}</h3>
                   <p className="text-gray-700 whitespace-pre-line">
                     {t('footer.address')}
                   </p>
@@ -47,16 +47,16 @@ const Contact = () => {
                   <Mail className="text-[#D4A056]" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#2C4A3B] mb-3 text-xl">Contactez-nous</h3>
+                  <h3 className="font-bold text-[#2C4A3B] mb-3 text-xl">{t('contactPage.title')}</h3>
                   <p className="text-gray-700 mb-6">
-                    Pour toute question ou demande d'information, n'hésitez pas à nous contacter.
+                    {t('contactPage.text')}
                   </p>
                   <a
-                    href="mailto:info@mimeaimpact.org"
+                    href="mailto:info@mimea-impact.ch"
                     className="inline-flex items-center gap-2 bg-[#2C4A3B] text-white px-6 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all"
                   >
                     <Mail size={20} />
-                    Contact
+                    {t('contactPage.button')}
                   </a>
                 </div>
               </div>

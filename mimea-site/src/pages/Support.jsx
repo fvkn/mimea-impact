@@ -58,7 +58,7 @@ const Support = () => {
         <div className="container mx-auto px-6 max-w-5xl">
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4 text-center">{t('supportPage.directDonation')}</h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Choisissez un projet spécifique ou faites un don libre pour soutenir l'ensemble de nos activités
+            {t('supportPage.donationIntro')}
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -69,7 +69,7 @@ const Support = () => {
               </div>
               <h3 className="text-xl font-bold text-[#2C4A3B] mb-2">{t('supportPage.donationOptions.free')}</h3>
               <p className="text-gray-600 text-sm mb-6">
-                Soutenez l'ensemble de nos programmes
+                {t('supportPage.donationOptions.freeDesc')}
               </p>
             </div>
 
@@ -80,7 +80,7 @@ const Support = () => {
               </div>
               <h3 className="text-xl font-bold text-[#2C4A3B] mb-2">{t('supportPage.donationOptions.lumo')}</h3>
               <p className="text-gray-600 text-sm mb-6">
-                CHF 250'000 - Tourisme & Conservation
+                {t('supportPage.donationOptions.lumoDesc')}
               </p>
             </div>
 
@@ -91,31 +91,30 @@ const Support = () => {
               </div>
               <h3 className="text-xl font-bold text-[#2C4A3B] mb-2">{t('supportPage.donationOptions.moringa')}</h3>
               <p className="text-gray-600 text-sm mb-6">
-                CHF 415'000 - Climat, Nutrition & Eau
+                {t('supportPage.donationOptions.moringaDesc')}
               </p>
             </div>
           </div>
 
           {/* Bank Details */}
           <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-            <h3 className="text-2xl font-bold text-[#2C4A3B] mb-6 text-center">Coordonnées bancaires</h3>
+            <h3 className="text-2xl font-bold text-[#2C4A3B] mb-6 text-center">{t('supportPage.bankTitle')}</h3>
             <div className="grid md:grid-cols-2 gap-6 text-sm">
               <div>
-                <p className="font-semibold text-gray-700 mb-1">Bénéficiaire</p>
+                <p className="font-semibold text-gray-700 mb-1">{t('supportPage.beneficiary')}</p>
                 <p className="text-gray-600">Mimea Impact</p>
                 <p className="text-gray-600">Webereistrasse 59</p>
-                <p className="text-gray-600">8134 Adliswil, Suisse</p>
+                <p className="text-gray-600">8134 Adliswil</p>
               </div>
               <div>
-                <p className="font-semibold text-gray-700 mb-1">Banque</p>
-                <p className="text-gray-600">PostFinance SA</p>
-                <p className="text-gray-600 mt-3"><span className="font-semibold">IBAN:</span> [À compléter]</p>
-                <p className="text-gray-600"><span className="font-semibold">BIC:</span> POFICHBEXXX</p>
+                <p className="font-semibold text-gray-700 mb-1">{t('supportPage.bank')}</p>
+                <p className="text-gray-600">Zürcher Kantonalbank</p>
+                <p className="text-gray-600 mt-3">{t('supportPage.bankContact')}</p>
               </div>
             </div>
             <div className="mt-6 p-4 bg-[#D4A056]/10 rounded-lg">
               <p className="text-sm text-gray-700">
-                <strong>Note:</strong> Veuillez indiquer le projet que vous souhaitez soutenir dans la communication de paiement
+                <strong>Note:</strong> {t('supportPage.bankNote')}
               </p>
             </div>
           </div>
@@ -131,7 +130,7 @@ const Support = () => {
             {t('supportPage.partnershipText')}
           </p>
           <a
-            href="mailto:info@mimea-impact.org"
+            href="mailto:info@mimea-impact.ch"
             className="inline-flex items-center gap-2 bg-[#2C4A3B] text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-all"
           >
             <Mail size={20} />
@@ -148,7 +147,7 @@ const Support = () => {
             {t('supportPage.taxDeduction')}
           </p>
           <p className="text-sm text-gray-600 mt-2">
-            Une attestation de don vous sera envoyée pour votre déclaration d'impôts
+            {t('supportPage.taxDeductionNote')}
           </p>
         </div>
       </section>

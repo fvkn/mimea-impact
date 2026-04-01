@@ -11,7 +11,7 @@ const MoringaProject = () => {
       <section className="relative h-[60vh]">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=2074&auto=format&fit=crop"
+            src="/moringa-field.jpg"
             alt="Moringa Project"
             className="w-full h-full object-cover"
           />

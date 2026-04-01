@@ -28,8 +28,8 @@
       "learnMore": "En savoir plus →"
     },
     "moringa": {
-      "title": "Economie Circulaire Moringa",
-      "description": "Nutrition, autonomisation des femmes & resilience climatique",
+      "title": "Économie Circulaire Moringa",
+      "description": "Nutrition, autonomisation des femmes & résilience climatique",
       "learnMore": "En savoir plus →"
     }
   },
@@ -123,10 +123,10 @@
     "impact3Title": "Renforcement des capacités locales",
     "impact3Text": "Formation en gestion touristique, guidage professionnel et entrepreneuriat agricole",
     "impact4Title": "Modèle réplicable",
-    "impact4Text": "Crée un blueprint pour d'autres conservancies communautaires au Kenya",
+    "impact4Text": "Crée un modèle reproductible pour d'autres conservancies communautaires au Kenya",
     "partner1": "Lumo Community",
     "partner2": "Mwalua Wildlife Trust (reconnu UNESCO)",
-    "partner3": "Kilifi Moringa Estate (partenaire Banque Mondiale)",
+
     "partner4": "TTWCA (Taita Taveta Wildlife Conservancies Association)",
     "ctaTitle": "Soutenez le Project Lumo+",
     "ctaText": "Votre soutien permet de créer des emplois locaux durables et de promouvoir la coexistence harmonieuse entre les communautés et la faune.",
@@ -254,17 +254,89 @@
     "reason2": "Ancré localement",
     "reason3": "Transparent & responsable",
     "reason4": "Durable (pas de dépendance aux subventions)",
+    "donationIntro": "Choisissez un projet spécifique ou faites un don libre pour soutenir l'ensemble de nos activités",
     "donationOptions": {
       "free": "Don libre",
+      "freeDesc": "Soutenez l'ensemble de nos programmes",
       "lumo": "Project Lumo+",
+      "lumoDesc": "CHF 250'000 – Tourisme & Conservation",
       "moringa": "Moringa",
+      "moringaDesc": "CHF 150'000 – Nutrition & Économie circulaire",
       "water": "Eau",
       "education": "Éducation"
     },
-    "taxDeduction": "Mimea Impact est reconnu d'utilité publique"
+    "bankTitle": "Coordonnées bancaires",
+    "beneficiary": "Bénéficiaire",
+    "bank": "Banque",
+    "bankContact": "Veuillez nous contacter pour les coordonnées bancaires",
+    "bankNote": "Veuillez indiquer le projet que vous souhaitez soutenir dans la communication de paiement",
+    "taxDeduction": "Reconnaissance d'utilité publique en cours – Canton de Zurich",
+    "taxDeductionNote": "Une attestation de don vous sera envoyée pour votre déclaration d'impôts"
+  },
+  "contactPage": {
+    "address": "Adresse",
+    "title": "Contactez-nous",
+    "text": "Pour toute question ou demande d'information, n'hésitez pas à nous contacter.",
+    "button": "Contact"
+  },
+  "legalPage": {
+    "title": "Mentions Légales",
+    "org": "Organisation",
+    "country": "Suisse",
+    "legalForm": "Forme juridique",
+    "legalFormText": "Association au sens des art. 60 ss du Code civil suisse (CC). Demande de reconnaissance d'utilité publique en cours auprès de l'administration fiscale du canton de Zurich.",
+    "board": "Comité",
+    "president": "Présidente",
+    "member": "Membre du comité",
+    "contact": "Contact",
+    "liability": "Clause de non-responsabilité",
+    "liabilityText": "Mimea Impact s'efforce d'assurer l'exactitude et l'exhaustivité des informations sur ce site. Toutefois, nous déclinons toute responsabilité quant à l'actualité, l'exactitude ou l'exhaustivité du contenu. Les liens vers des sites tiers sont fournis à titre informatif ; nous n'avons aucun contrôle sur leur contenu et n'en assumons aucune responsabilité.",
+    "copyright": "Droits d'auteur",
+    "copyrightText": "L'ensemble du contenu de ce site (textes, images, graphiques, logos) est la propriété de Mimea Impact, sauf mention contraire. Toute reproduction ou utilisation nécessite un accord écrit préalable."
+  },
+  "privacyPage": {
+    "title": "Protection des Données",
+    "responsible": "Responsable du traitement",
+    "general": "Généralités",
+    "generalText": "Nous prenons la protection de vos données personnelles au sérieux. Ce site est exploité conformément à la loi fédérale sur la protection des données (nLPD) et, le cas échéant, au Règlement général sur la protection des données de l'UE (RGPD).",
+    "dataCollected": "Données collectées",
+    "dataCollectedText": "Nous ne collectons que les données personnelles que vous nous fournissez volontairement :",
+    "dataContact": "Formulaire de contact : nom, adresse e-mail et votre message. Ces données sont utilisées uniquement pour répondre à votre demande.",
+    "dataNewsletter": "Newsletter : votre adresse e-mail, utilisée exclusivement pour vous envoyer des mises à jour sur nos projets. Vous pouvez vous désinscrire à tout moment.",
+    "cookies": "Cookies",
+    "cookiesText": "Ce site utilise uniquement des cookies techniquement nécessaires (p. ex. préférence de langue). Nous n'utilisons ni cookies de suivi, ni outils d'analyse, ni technologies publicitaires.",
+    "thirdParties": "Services tiers",
+    "thirdPartiesText": "Ce site est hébergé par Infomaniak (Genève, Suisse). Infomaniak peut traiter des données de journalisation serveur (adresse IP, type de navigateur, heure d'accès) à des fins de sécurité. Aucun autre service tiers n'est intégré.",
+    "rights": "Vos droits",
+    "rightsText": "Vous avez le droit d'accéder à vos données personnelles, de les corriger ou de les supprimer à tout moment. Veuillez nous contacter à info@mimea-impact.ch.",
+    "law": "Droit applicable",
+    "lawText": "Le droit suisse s'applique. Le for juridique est Adliswil, canton de Zurich."
+  },
+  "statutesPage": {
+    "title": "Statuts",
+    "intro": "Voici un résumé des articles clés des statuts de Mimea Impact, adoptés lors de l'assemblée constitutive. Les statuts complets sont disponibles sur demande.",
+    "nameTitle": "Nom & forme juridique",
+    "nameText": "Sous le nom de « Mimea Impact », il est constitué une association au sens des art. 60 ss du Code civil suisse (CC).",
+    "seatTitle": "Siège",
+    "seatText": "Le siège de l'association est à Adliswil, canton de Zurich.",
+    "purposeTitle": "But",
+    "purposeText": "L'association poursuit des buts non lucratifs et d'utilité publique. Elle promeut le développement durable en Afrique de l'Est, notamment par la création de valeur locale, la sécurité alimentaire, l'autonomisation des femmes et la conservation de l'environnement.",
+    "membershipTitle": "Membres",
+    "membershipText": "Toute personne physique ou morale soutenant le but de l'association peut devenir membre. L'admission est décidée par le comité.",
+    "organsTitle": "Organes",
+    "organsText": "Les organes de l'association sont : l'Assemblée générale, le Comité et l'Organe de révision.",
+    "assemblyTitle": "Assemblée générale",
+    "assemblyText": "L'Assemblée générale est l'organe suprême de l'association. Elle se réunit au moins une fois par an et statue sur les modifications des statuts, le budget, les comptes annuels et l'élection des membres du comité.",
+    "boardTitle": "Comité",
+    "boardText": "Le comité se compose d'au moins trois membres élus par l'Assemblée générale. Il gère les affaires de l'association, la représente vers l'extérieur et peut déléguer des tâches opérationnelles à une équipe de projet.",
+    "financesTitle": "Finances",
+    "financesText": "Les ressources de l'association proviennent des cotisations, dons, subventions et revenus de ses activités. Les membres du comité exercent leur fonction à titre bénévole.",
+    "dissolutionTitle": "Dissolution",
+    "dissolutionText": "En cas de dissolution, les actifs de l'association sont transférés à une organisation exonérée d'impôts poursuivant un but similaire. Toute distribution aux membres est exclue.",
+    "fullVersion": "Les statuts complets sont disponibles sur demande à info@mimea-impact.ch."
   },
   "footer": {
-    "description": "Organisation de développement durable reconnue d'utilité publique, œuvrant pour la résilience des populations rurales en Afrique de l'Est.",
+    "description": "Organisation de développement durable œuvrant pour la résilience des populations rurales en Afrique de l'Est.",
     "address": "Mimea Impact\nWebereistrasse 59\n8134 Adliswil\nSuisse",
     "quickLinks": "Liens Rapides",
     "legal": "Mentions Légales",
@@ -274,7 +346,7 @@
     "newsletterText": "Recevez des nouvelles sur nos progrès",
     "emailPlaceholder": "votre@email.com",
     "trustSignals": {
-      "nonprofit": "Reconnu d'utilité publique",
+      "nonprofit": "Reconnaissance d'utilité publique en cours",
       "swiss": "Siège en Suisse",
       "transparent": "Transparent & responsable"
     }

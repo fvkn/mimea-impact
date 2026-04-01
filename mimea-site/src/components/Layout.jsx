@@ -183,11 +183,11 @@ const Layout = ({ children }) => {
 
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-60">
             <div className="flex gap-6">
-              <a href="#legal" className="hover:opacity-100 transition-opacity">{t('footer.legal')}</a>
-              <a href="#privacy" className="hover:opacity-100 transition-opacity">{t('footer.privacy')}</a>
-              <a href="#statutes" className="hover:opacity-100 transition-opacity">{t('footer.statutes')}</a>
+              <Link to="/legal" className="hover:opacity-100 transition-opacity">{t('footer.legal')}</Link>
+              <Link to="/privacy" className="hover:opacity-100 transition-opacity">{t('footer.privacy')}</Link>
+              <Link to="/statutes" className="hover:opacity-100 transition-opacity">{t('footer.statutes')}</Link>
             </div>
-            <div>© 2024 Mimea Impact - {t('footer.trustSignals.nonprofit')}</div>
+            <div>© 2026 Mimea Impact - {t('footer.trustSignals.nonprofit')}</div>
           </div>
         </div>
       </footer>

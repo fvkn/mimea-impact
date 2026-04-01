@@ -176,7 +176,7 @@ const Home = () => {
             <Link to="/projects/moringa" className="observe-fade bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
               <div className="h-64 overflow-hidden relative">
                 <img
-                  src="https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=2074&auto=format&fit=crop"
+                  src="/moringa-field.jpg"
                   alt="Moringa Project"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />

@@ -7,17 +7,17 @@ const About = () => {
   return (
     <div className="min-h-screen bg-[#F9F8F4]">
       {/* Hero Section */}
-      <section className="relative py-32">
+      <section className="relative h-[40vh]">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2072&auto=format&fit=crop"
-            alt="Kenya Community"
-            className="w-full h-full object-cover"
+            src="/about-hero.jpg"
+            alt="Community in Kilifi County"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#2C4A3B]/70 via-[#2C4A3B]/40 to-transparent"></div>
         </div>
-        <div className="container mx-auto px-6 relative z-10">
-          <h1 className="text-5xl font-bold text-white mb-6">{t('about.title')}</h1>
+        <div className="container mx-auto px-6 relative z-10 h-full flex items-center justify-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white text-center">{t('about.title')}</h1>
         </div>
       </section>
 

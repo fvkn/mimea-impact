@@ -43,7 +43,7 @@ const Projects = () => {
             <Link to="/projects/moringa" className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group cursor-pointer">
               <div className="h-64 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=2074&auto=format&fit=crop"
+                  src="/moringa-field.jpg"
                   alt="Moringa Project"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />

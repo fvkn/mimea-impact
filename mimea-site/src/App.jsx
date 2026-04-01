@@ -9,6 +9,9 @@ import LumoProject from './pages/LumoProject';
 import MoringaProject from './pages/MoringaProject';
 import Support from './pages/Support';
 import Contact from './pages/Contact';
+import LegalNotice from './pages/LegalNotice';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import StatutesPage from './pages/StatutesPage';
 
 const LanguageHandler = () => {
   const [searchParams] = useSearchParams();
@@ -37,6 +40,9 @@ const App = () => {
           <Route path="/projects/moringa" element={<MoringaProject />} />
           <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/legal" element={<LegalNotice />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/statutes" element={<StatutesPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

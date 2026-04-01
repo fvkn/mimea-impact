@@ -29,7 +29,7 @@
     },
     "moringa": {
       "title": "Moringa-Kreislaufwirtschaft",
-      "description": "Ernaehrung, Frauen-Empowerment & Klimaresilienz",
+      "description": "Ernährung, Frauen-Empowerment & Klimaresilienz",
       "learnMore": "Mehr erfahren →"
     }
   },
@@ -126,7 +126,7 @@
     "impact4Text": "Schafft eine Blaupause für andere Community Conservancies in Kenia",
     "partner1": "Lumo Community",
     "partner2": "Mwalua Wildlife Trust (UNESCO-anerkannt)",
-    "partner3": "Kilifi Moringa Estate (World Bank Partner)",
+
     "partner4": "TTWCA (Taita Taveta Wildlife Conservancies Association)",
     "ctaTitle": "Unterstützen Sie Project Lumo+",
     "ctaText": "Ihre Unterstützung ermöglicht die Schaffung nachhaltiger lokaler Arbeitsplätze und fördert das harmonische Zusammenleben zwischen Gemeinden und Wildtieren.",
@@ -139,7 +139,7 @@
     "budget": "CHF 150'000",
     "challengeTitle": "Die Herausforderung",
     "challengePara1": "Kilifi County an der kenianischen Küste zählt zu den am stärksten von Ernährungsunsicherheit betroffenen Regionen des Landes. Über 30% der Kinder unter fünf Jahren leiden an chronischer Mangelernährung mit akuten Defiziten an Eisen, Zink und Vitamin A. Rund 47,5% der Frauen leben unterhalb der Armutsgrenze, verglichen mit 36,1% landesweit.",
-    "challengePara2": "Die weitverbreitete Holzkohleproduktion treibt die Abholzung voran und bedroht empfindliche Küstenökoysteme. Kleinbäuerinnen und Kleinbauern verkaufen ihre Rohprodukte zu Tiefstpreisen an Zwischenhändler, und das Fehlen lokaler Verarbeitungsinfrastruktur hält sie am unteren Ende der Wertschöpfungskette fest.",
+    "challengePara2": "Die weitverbreitete Holzkohleproduktion treibt die Abholzung voran und bedroht empfindliche Küstenökosysteme. Kleinbäuerinnen und Kleinbauern verkaufen ihre Rohprodukte zu Tiefstpreisen an Zwischenhändler, und das Fehlen lokaler Verarbeitungsinfrastruktur hält sie am unteren Ende der Wertschöpfungskette fest.",
     "statStunting": "Wachstumsverzögerung bei Kindern",
     "statPoverty": "Frauen unter Armutsgrenze",
     "statProcessing": "Lokale Verarbeitungsbetriebe im County",
@@ -254,17 +254,89 @@
     "reason2": "Lokal verankert",
     "reason3": "Transparent & rechenschaftspflichtig",
     "reason4": "Nachhaltig angelegt (kein Grant-Dependency)",
+    "donationIntro": "Wählen Sie ein bestimmtes Projekt oder machen Sie eine freie Spende zur Unterstützung all unserer Aktivitäten",
     "donationOptions": {
       "free": "Freie Spende",
+      "freeDesc": "Unterstützen Sie alle unsere Programme",
       "lumo": "Project Lumo+",
+      "lumoDesc": "CHF 250'000 – Tourismus & Naturschutz",
       "moringa": "Moringa",
+      "moringaDesc": "CHF 150'000 – Ernährung & Kreislaufwirtschaft",
       "water": "Wasser",
       "education": "Bildung"
     },
-    "taxDeduction": "Mimea Impact ist gemeinnützig anerkannt"
+    "bankTitle": "Bankverbindung",
+    "beneficiary": "Begünstigter",
+    "bank": "Bank",
+    "bankContact": "Bitte kontaktieren Sie uns für die Bankverbindung",
+    "bankNote": "Bitte geben Sie das Projekt, das Sie unterstützen möchten, im Zahlungszweck an",
+    "taxDeduction": "Gemeinnützigkeitsanerkennung hängig – Kanton Zürich",
+    "taxDeductionNote": "Eine Spendenbestätigung wird für Ihre Steuererklärung ausgestellt"
+  },
+  "contactPage": {
+    "address": "Adresse",
+    "title": "Kontaktieren Sie uns",
+    "text": "Bei Fragen oder Informationswünschen zögern Sie nicht, uns zu kontaktieren.",
+    "button": "Kontakt"
+  },
+  "legalPage": {
+    "title": "Impressum",
+    "org": "Organisation",
+    "country": "Schweiz",
+    "legalForm": "Rechtsform",
+    "legalFormText": "Verein gemäss Art. 60 ff. des Schweizerischen Zivilgesetzbuches (ZGB). Gesuch um Gemeinnützigkeitsanerkennung beim Steueramt des Kantons Zürich hängig.",
+    "board": "Vorstand",
+    "president": "Präsidentin",
+    "member": "Vorstandsmitglied",
+    "contact": "Kontakt",
+    "liability": "Haftungsausschluss",
+    "liabilityText": "Mimea Impact bemüht sich um die Richtigkeit und Vollständigkeit der Informationen auf dieser Website. Wir übernehmen jedoch keine Haftung für die Aktualität, Richtigkeit oder Vollständigkeit der Inhalte. Links zu Webseiten Dritter dienen lediglich der Information; wir haben keinen Einfluss auf deren Inhalte und übernehmen keine Verantwortung dafür.",
+    "copyright": "Urheberrecht",
+    "copyrightText": "Sämtliche Inhalte dieser Website (Texte, Bilder, Grafiken, Logos) sind Eigentum von Mimea Impact, sofern nicht anders angegeben. Jede Vervielfältigung oder Nutzung bedarf der vorherigen schriftlichen Zustimmung."
+  },
+  "privacyPage": {
+    "title": "Datenschutzerklärung",
+    "responsible": "Verantwortliche Stelle",
+    "general": "Allgemeines",
+    "generalText": "Wir nehmen den Schutz Ihrer persönlichen Daten ernst. Diese Website wird in Übereinstimmung mit dem Schweizer Datenschutzgesetz (nDSG) und, soweit anwendbar, der EU-Datenschutz-Grundverordnung (DSGVO) betrieben.",
+    "dataCollected": "Erhobene Daten",
+    "dataCollectedText": "Wir erheben nur personenbezogene Daten, die Sie uns freiwillig zur Verfügung stellen:",
+    "dataContact": "Kontaktformular: Name, E-Mail-Adresse und Ihre Nachricht. Diese Daten werden ausschliesslich zur Beantwortung Ihrer Anfrage verwendet.",
+    "dataNewsletter": "Newsletter: Ihre E-Mail-Adresse, die ausschliesslich für den Versand von Projekt-Updates verwendet wird. Sie können sich jederzeit abmelden.",
+    "cookies": "Cookies",
+    "cookiesText": "Diese Website verwendet ausschliesslich technisch notwendige Cookies (z.B. Spracheinstellung). Wir verwenden keine Tracking-Cookies, Analyse-Tools oder Werbetechnologien.",
+    "thirdParties": "Drittanbieter",
+    "thirdPartiesText": "Diese Website wird von Infomaniak (Genf, Schweiz) gehostet. Infomaniak kann Server-Logdaten (IP-Adresse, Browsertyp, Zugriffszeit) zu Sicherheitszwecken verarbeiten. Weitere Drittanbieter-Dienste sind nicht eingebunden.",
+    "rights": "Ihre Rechte",
+    "rightsText": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten. Bitte kontaktieren Sie uns unter info@mimea-impact.ch.",
+    "law": "Anwendbares Recht",
+    "lawText": "Es gilt Schweizer Recht. Gerichtsstand ist Adliswil, Kanton Zürich."
+  },
+  "statutesPage": {
+    "title": "Statuten",
+    "intro": "Nachfolgend eine Zusammenfassung der wichtigsten Artikel der Statuten von Mimea Impact, verabschiedet an der Gründungsversammlung. Die vollständigen Statuten sind auf Anfrage erhältlich.",
+    "nameTitle": "Name & Rechtsform",
+    "nameText": "Unter dem Namen «Mimea Impact» besteht ein Verein im Sinne von Art. 60 ff. des Schweizerischen Zivilgesetzbuches (ZGB).",
+    "seatTitle": "Sitz",
+    "seatText": "Der Sitz des Vereins ist in Adliswil, Kanton Zürich.",
+    "purposeTitle": "Zweck",
+    "purposeText": "Der Verein verfolgt gemeinnützige und wohltätige Zwecke. Er fördert die nachhaltige Entwicklung in Ostafrika, insbesondere durch lokale Wertschöpfung, Ernährungssicherheit, Frauenförderung und Umweltschutz.",
+    "membershipTitle": "Mitgliedschaft",
+    "membershipText": "Mitglied kann jede natürliche oder juristische Person werden, die den Vereinszweck unterstützt. Über die Aufnahme entscheidet der Vorstand.",
+    "organsTitle": "Organe",
+    "organsText": "Die Organe des Vereins sind: die Generalversammlung, der Vorstand und die Revisionsstelle.",
+    "assemblyTitle": "Generalversammlung",
+    "assemblyText": "Die Generalversammlung ist das oberste Organ des Vereins. Sie tritt mindestens einmal jährlich zusammen und entscheidet über Statutenänderungen, Budget, Jahresrechnung und Wahl der Vorstandsmitglieder.",
+    "boardTitle": "Vorstand",
+    "boardText": "Der Vorstand besteht aus mindestens drei von der Generalversammlung gewählten Mitgliedern. Er führt die Geschäfte des Vereins, vertritt ihn nach aussen und kann operative Aufgaben an ein Projektteam delegieren.",
+    "financesTitle": "Finanzen",
+    "financesText": "Die Mittel des Vereins setzen sich aus Mitgliederbeiträgen, Spenden, Zuwendungen und Einnahmen aus seinen Aktivitäten zusammen. Die Vorstandsmitglieder üben ihr Amt ehrenamtlich aus.",
+    "dissolutionTitle": "Auflösung",
+    "dissolutionText": "Bei Auflösung des Vereins wird das Vereinsvermögen einer steuerbefreiten Organisation mit ähnlichem Zweck übertragen. Eine Verteilung an Mitglieder ist ausgeschlossen.",
+    "fullVersion": "Die vollständigen Statuten sind auf Anfrage erhältlich unter info@mimea-impact.ch."
   },
   "footer": {
-    "description": "Gemeinnützige Organisation für nachhaltige Entwicklung, die sich für die Widerstandsfähigkeit ländlicher Bevölkerungen in Ostafrika einsetzt.",
+    "description": "Wir stärken ländliche Gemeinschaften in Ostafrika durch nachhaltige Entwicklung und lokale Wertschöpfung.",
     "address": "Mimea Impact\nWebereistrasse 59\n8134 Adliswil\nSchweiz",
     "quickLinks": "Quick Links",
     "legal": "Impressum",
@@ -274,7 +346,7 @@
     "newsletterText": "Erhalten Sie Updates über unsere Projektfortschritte",
     "emailPlaceholder": "ihre@email.com",
     "trustSignals": {
-      "nonprofit": "Gemeinnützig anerkannt",
+      "nonprofit": "Gemeinnützigkeitsanerkennung hängig",
       "swiss": "Sitz in der Schweiz",
       "transparent": "Transparent & rechenschaftspflichtig"
     }
