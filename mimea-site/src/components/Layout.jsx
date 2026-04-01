@@ -30,6 +30,15 @@ const Layout = ({ children }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (!showLangMenu) return;
+    const handleClickOutside = (e) => {
+      if (!e.target.closest('.lang-selector')) setShowLangMenu(false);
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [showLangMenu]);
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setShowLangMenu(false);
@@ -87,7 +96,7 @@ const Layout = ({ children }) => {
             </Link>
 
             {/* Language Selector */}
-            <div className="relative">
+            <div className="relative lang-selector">
               <button
                 onClick={() => setShowLangMenu(!showLangMenu)}
                 className="flex items-center gap-2 text-sm font-semibold hover:text-ochre transition-all duration-300 px-3 py-2 rounded-lg hover:bg-ochre/10"
