@@ -33,7 +33,7 @@ const StatutesPage = () => {
               {articles.map(({ key, article }) => (
                 <div key={key} className="border-l-4 border-[#D4A056] pl-6">
                   <h3 className="text-lg font-bold text-[#2C4A3B] mb-1">
-                    Art. {article} – {t(`statutesPage.${key}Title`)}
+                    Art. {article}: {t(`statutesPage.${key}Title`)}
                   </h3>
                   <p className="text-gray-700 leading-relaxed">{t(`statutesPage.${key}Text`)}</p>
                 </div>

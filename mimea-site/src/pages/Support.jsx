@@ -1,115 +1,70 @@
 import { useTranslation } from 'react-i18next';
-import { Heart, Award, Users, TrendingUp, CheckCircle, Mail } from 'lucide-react';
+import { Heart, Award, TrendingUp, CheckCircle, Mail } from 'lucide-react';
 
 const Support = () => {
   const { t } = useTranslation();
+  const reasons = ['reason1', 'reason2', 'reason3', 'reason4'];
 
   return (
     <div className="min-h-screen bg-[#F9F8F4]">
       {/* Hero Section */}
       <section className="relative py-32 bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23]">
-        <div className="container mx-auto px-6 relative z-10 text-center">
+        <div className="max-w-3xl mx-auto px-6 relative z-10 text-center">
           <Heart className="w-16 h-16 text-[#D4A056] mx-auto mb-6" />
           <h1 className="text-5xl font-bold text-white mb-6">{t('supportPage.title')}</h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            {t('supportPage.taxDeduction')}
-          </p>
+          <p className="text-xl text-white/90">{t('supportPage.taxDeduction')}</p>
         </div>
       </section>
 
       {/* Why Support Section */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-6 max-w-5xl">
+        <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-12 text-center">{t('supportPage.whySupport')}</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="flex items-start gap-4 p-6 bg-[#F9F8F4] rounded-lg">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={28} />
-              <div>
-                <h3 className="font-bold text-[#2C4A3B] mb-2 text-lg">{t('supportPage.reason1')}</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            {reasons.map((reason) => (
+              <div key={reason} className="flex items-start gap-4 p-6 bg-[#F9F8F4] rounded-xl">
+                <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={28} />
+                <h3 className="font-bold text-[#2C4A3B] text-lg">{t(`supportPage.${reason}`)}</h3>
               </div>
-            </div>
-
-            <div className="flex items-start gap-4 p-6 bg-[#F9F8F4] rounded-lg">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={28} />
-              <div>
-                <h3 className="font-bold text-[#2C4A3B] mb-2 text-lg">{t('supportPage.reason2')}</h3>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4 p-6 bg-[#F9F8F4] rounded-lg">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={28} />
-              <div>
-                <h3 className="font-bold text-[#2C4A3B] mb-2 text-lg">{t('supportPage.reason3')}</h3>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4 p-6 bg-[#F9F8F4] rounded-lg">
-              <CheckCircle className="text-[#2C4A3B] flex-shrink-0" size={28} />
-              <div>
-                <h3 className="font-bold text-[#2C4A3B] mb-2 text-lg">{t('supportPage.reason4')}</h3>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Donation Options */}
       <section className="py-16 bg-[#F9F8F4]">
-        <div className="container mx-auto px-6 max-w-5xl">
+        <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4 text-center">{t('supportPage.directDonation')}</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            {t('supportPage.donationIntro')}
-          </p>
+          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">{t('supportPage.donationIntro')}</p>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            {/* Free Donation */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200 hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center mb-4">
-                <Heart className="text-[#D4A056]" size={24} />
-              </div>
-              <h3 className="text-xl font-bold text-[#2C4A3B] mb-2">{t('supportPage.donationOptions.free')}</h3>
-              <p className="text-gray-600 text-sm mb-6">
-                {t('supportPage.donationOptions.freeDesc')}
-              </p>
-            </div>
-
-            {/* Lumo+ */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border-2 border-[#D4A056] hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center mb-4">
-                <Award className="text-[#D4A056]" size={24} />
-              </div>
-              <h3 className="text-xl font-bold text-[#2C4A3B] mb-2">{t('supportPage.donationOptions.lumo')}</h3>
-              <p className="text-gray-600 text-sm mb-6">
-                {t('supportPage.donationOptions.lumoDesc')}
-              </p>
-            </div>
-
-            {/* Moringa */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border-2 border-[#D4A056] hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-[#D4A056]/20 rounded-full flex items-center justify-center mb-4">
-                <Users className="text-[#D4A056]" size={24} />
-              </div>
-              <h3 className="text-xl font-bold text-[#2C4A3B] mb-2">{t('supportPage.donationOptions.moringa')}</h3>
-              <p className="text-gray-600 text-sm mb-6">
-                {t('supportPage.donationOptions.moringaDesc')}
-              </p>
-            </div>
-          </div>
-
-          {/* Bank Details */}
-          <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
+          {/* Bank Details + Swiss QR-bill (e-banking) */}
+          <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-200">
             <h3 className="text-2xl font-bold text-[#2C4A3B] mb-6 text-center">{t('supportPage.bankTitle')}</h3>
-            <div className="grid md:grid-cols-2 gap-6 text-sm">
-              <div>
-                <p className="font-semibold text-gray-700 mb-1">{t('supportPage.beneficiary')}</p>
-                <p className="text-gray-600">Mimea Impact</p>
-                <p className="text-gray-600">Webereistrasse 59</p>
-                <p className="text-gray-600">8134 Adliswil</p>
+            <div className="grid md:grid-cols-2 gap-8 items-start">
+              {/* Account details */}
+              <div className="flex flex-col gap-4 text-sm">
+                <div>
+                  <p className="font-semibold text-gray-700 mb-1">{t('supportPage.beneficiary')}</p>
+                  <p className="text-gray-600">Mimea Impact</p>
+                  <p className="text-gray-600">Webereistrasse 59</p>
+                  <p className="text-gray-600">8134 Adliswil</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-700 mb-1">{t('supportPage.bank')}</p>
+                  <p className="text-gray-600">Zürcher Kantonalbank</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-700 mb-1">{t('supportPage.iban')}</p>
+                  <p className="text-gray-700 font-mono tracking-wide">CH91 0070 0114 9053 9509 1</p>
+                </div>
               </div>
-              <div>
-                <p className="font-semibold text-gray-700 mb-1">{t('supportPage.bank')}</p>
-                <p className="text-gray-600">Zürcher Kantonalbank</p>
-                <p className="text-gray-600 mt-3">{t('supportPage.bankContact')}</p>
+              {/* QR code */}
+              <div className="flex flex-col items-center text-center bg-[#F9F8F4] rounded-xl p-6">
+                <p className="font-semibold text-[#2C4A3B] mb-1">{t('supportPage.qrTitle')}</p>
+                <p className="text-sm text-gray-600 mb-4">{t('supportPage.qrText')}</p>
+                <div className="bg-white p-3 rounded-lg shadow-sm">
+                  <img src="/payment-qr.svg" alt="E-Banking QR" width="192" height="192" className="w-48 h-48" />
+                </div>
               </div>
             </div>
             <div className="mt-6 p-4 bg-[#D4A056]/10 rounded-lg">
@@ -123,12 +78,10 @@ const Support = () => {
 
       {/* Partnership Section */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-6 max-w-4xl text-center">
+        <div className="max-w-4xl mx-auto px-6 text-center">
           <TrendingUp className="w-12 h-12 text-[#D4A056] mx-auto mb-6" />
           <h2 className="text-3xl font-bold text-[#2C4A3B] mb-4">{t('supportPage.partnership')}</h2>
-          <p className="text-lg text-gray-700 mb-8">
-            {t('supportPage.partnershipText')}
-          </p>
+          <p className="text-lg text-gray-700 mb-8">{t('supportPage.partnershipText')}</p>
           <a
             href="mailto:info@mimea-impact.ch"
             className="inline-flex items-center gap-2 bg-[#2C4A3B] text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition-all"
@@ -141,14 +94,10 @@ const Support = () => {
 
       {/* Tax Deduction Info */}
       <section className="py-12 bg-[#F9F8F4] border-t border-gray-200">
-        <div className="container mx-auto px-6 max-w-4xl text-center">
+        <div className="max-w-4xl mx-auto px-6 text-center">
           <Award className="w-10 h-10 text-[#D4A056] mx-auto mb-4" />
-          <p className="text-gray-700 font-medium">
-            {t('supportPage.taxDeduction')}
-          </p>
-          <p className="text-sm text-gray-600 mt-2">
-            {t('supportPage.taxDeductionNote')}
-          </p>
+          <p className="text-gray-700 font-medium">{t('supportPage.taxDeduction')}</p>
+          <p className="text-sm text-gray-600 mt-2">{t('supportPage.taxDeductionNote')}</p>
         </div>
       </section>
     </div>

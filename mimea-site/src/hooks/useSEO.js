@@ -26,13 +26,12 @@ const useSEO = () => {
         meta.description = t('about.intro') || '';
       } else if (location.pathname === '/projects') {
         meta.title = `${t('nav.projects')} | Mimea Impact`;
-        meta.description = t('projects.title') || '';
-      } else if (location.pathname === '/projects/lumo') {
-        meta.title = `${t('projects.lumo.title')} | Mimea Impact`;
-        meta.description = t('projects.lumo.description') || '';
-      } else if (location.pathname === '/projects/moringa') {
-        meta.title = `${t('projects.moringa.title')} | Mimea Impact`;
-        meta.description = t('projects.moringa.description') || '';
+        meta.description = t('projectsPage.lead') || '';
+      } else if (location.pathname.startsWith('/projects/')) {
+        const slug = location.pathname.split('/')[2];
+        const title = t(`packages.${slug}.title`);
+        meta.title = title && !title.startsWith('packages.') ? `${title} | Mimea Impact` : `${t('nav.projects')} | Mimea Impact`;
+        meta.description = t(`packages.${slug}.tagline`) || '';
       } else if (location.pathname === '/support') {
         meta.title = `${t('nav.support')} | Mimea Impact`;
       } else if (location.pathname === '/contact') {

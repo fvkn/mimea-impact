@@ -21,8 +21,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'fr', // langue par défaut
-    fallbackLng: 'fr',
+    lng: 'de', // Standardsprache (während der Überarbeitung); DE ist am vollständigsten
+    fallbackLng: 'de',
     interpolation: {
       escapeValue: false
     }

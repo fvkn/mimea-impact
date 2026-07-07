@@ -5,8 +5,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import LumoProject from './pages/LumoProject';
-import MoringaProject from './pages/MoringaProject';
+import ProjectDetail from './pages/ProjectDetail';
 import Support from './pages/Support';
 import Contact from './pages/Contact';
 import LegalNotice from './pages/LegalNotice';
@@ -36,8 +35,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/lumo" element={<LumoProject />} />
-          <Route path="/projects/moringa" element={<MoringaProject />} />
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/legal" element={<LegalNotice />} />

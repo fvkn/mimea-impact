@@ -36,9 +36,9 @@ const LegalNotice = () => {
             <div>
               <h2 className="text-2xl font-bold text-[#2C4A3B] mb-4">{t('legalPage.board')}</h2>
               <ul className="text-gray-700 space-y-1">
-                <li>Evelyn Graf – {t('legalPage.president')}</li>
-                <li>Charly Landry, lic. iur. – {t('legalPage.member')}</li>
-                <li>Thomas Wegmann – {t('legalPage.member')}</li>
+                <li>Evelyn Graf, {t('legalPage.president')}</li>
+                <li>Charly Landry, lic. iur., {t('legalPage.member')}</li>
+                <li>Thomas Wegmann, {t('legalPage.member')}</li>
               </ul>
             </div>
 

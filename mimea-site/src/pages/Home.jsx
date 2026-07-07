@@ -2,16 +2,17 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
-  Home as HomeIcon,
-  School,
+  Users2,
+  Sparkles,
   ArrowRight,
   Shield,
   FileText,
   Users,
-  TrendingUp,
-  CalendarDays,
+  Layers,
+  HandCoins,
   ChevronDown
 } from 'lucide-react';
+import { PACKAGES, formatCHF } from '../data/packages';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -119,10 +120,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { icon: <HomeIcon />, value: "2'500+", label: t('stats.households') },
-              { icon: <School />, value: "12", label: t('stats.schools') },
-              { icon: <TrendingUp />, value: "2", label: t('stats.projects') },
-              { icon: <CalendarDays />, value: "5", label: t('stats.years') }
+              { icon: <Users2 />, value: "~750", label: t('stats.households') },
+              { icon: <Sparkles />, value: "70", label: t('stats.schools') },
+              { icon: <Layers />, value: "5", label: t('stats.projects') },
+              { icon: <HandCoins />, value: "CHF 150'000", label: t('stats.years') }
             ].map((stat, idx) => (
               <div
                 key={idx}
@@ -144,55 +145,51 @@ const Home = () => {
       <section id="projects" className="py-20 px-6 bg-[#F9F8F4]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 observe-fade">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2C4A3B] mb-4">{t('projects.title')}</h2>
-            <div className="w-20 h-1 bg-[#D4A056] mx-auto rounded-full"></div>
+            <span className="text-[#D4A056] text-sm font-semibold uppercase tracking-wider">{t('projectsPage.programLabel')}</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2C4A3B] mt-3 mb-4">{t('projectsPage.title')}</h2>
+            <div className="w-20 h-1 bg-[#D4A056] mx-auto rounded-full mb-6"></div>
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">{t('projectsPage.lead')}</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Project Lumo+ */}
-            <Link to="/projects/lumo" className="observe-fade bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer transform hover:-translate-y-2">
-              <div className="h-64 overflow-hidden relative">
-                <img
-                  src="/ecolodge.jpg"
-                  alt="Lumo Project"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#2C4A3B]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-[#2C4A3B] mb-3 group-hover:text-[#D4A056] transition-colors">{t('projects.lumo.title')}</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">{t('projects.lumo.description')}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm font-bold text-[#D4A056] bg-[#D4A056]/10 px-3 py-1 rounded-full">CHF 250'000</span>
-                  <span className="flex items-center gap-2 text-[#2C4A3B] font-bold group-hover:text-[#D4A056] transition-colors">
-                    {t('projects.lumo.learnMore')}
-                    <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {PACKAGES.map((pkg, idx) => {
+              const Icon = pkg.icon;
+              const base = `packages.${pkg.slug}`;
+              return (
+                <Link
+                  key={pkg.slug}
+                  to={`/projects/${pkg.slug}`}
+                  className="observe-fade group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 flex flex-col"
+                  style={{ animationDelay: `${idx * 0.1}s` }}
+                >
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="w-12 h-12 bg-[#D4A056]/15 rounded-2xl flex items-center justify-center">
+                      <Icon className="text-[#D4A056]" size={24} />
+                    </div>
+                    <span className="text-sm font-bold text-[#D4A056] bg-[#D4A056]/10 px-3 py-1 rounded-full">{formatCHF(pkg.amount)}</span>
+                  </div>
+                  <h3 className="text-lg font-bold text-[#2C4A3B] mb-2 group-hover:text-[#D4A056] transition-colors">{t(`${base}.title`)}</h3>
+                  <p className="text-gray-600 text-sm mb-5 flex-1">{t(`${base}.tagline`)}</p>
+                  <span className="flex items-center gap-2 text-[#2C4A3B] font-bold text-sm group-hover:text-[#D4A056] transition-colors mt-auto">
+                    {t('projectsPage.learnMore')}
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                   </span>
-                </div>
-              </div>
-            </Link>
+                </Link>
+              );
+            })}
 
-            {/* Project Moringa */}
-            <Link to="/projects/moringa" className="observe-fade bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
-              <div className="h-64 overflow-hidden relative">
-                <img
-                  src="/moringa-field.jpg"
-                  alt="Moringa Project"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#2C4A3B]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-[#2C4A3B] mb-3 group-hover:text-[#D4A056] transition-colors">{t('projects.moringa.title')}</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">{t('projects.moringa.description')}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm font-bold text-[#D4A056] bg-[#D4A056]/10 px-3 py-1 rounded-full">CHF 150'000</span>
-                  <span className="flex items-center gap-2 text-[#2C4A3B] font-bold group-hover:text-[#D4A056] transition-colors">
-                    {t('projects.moringa.learnMore')}
-                    <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                  </span>
-                </div>
-              </div>
+            {/* View all / support tile */}
+            <Link
+              to="/projects"
+              className="observe-fade group bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-center"
+              style={{ animationDelay: '0.5s' }}
+            >
+              <h3 className="text-lg font-bold mb-2">{t('projectsPage.chooseTitle')}</h3>
+              <p className="text-sm text-white/80 mb-5">{t('projectsPage.chooseText')}</p>
+              <span className="flex items-center gap-2 text-[#D4A056] font-bold text-sm mt-auto">
+                {t('nav.projects')}
+                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              </span>
             </Link>
           </div>
         </div>
