@@ -35,7 +35,7 @@
   },
   "trust": {
     "title": "Vertrauenssignale",
-    "nonprofit": "Gemeinnützigkeitsanerkennung in Bearbeitung - Kanton Zürich",
+    "nonprofit": "Gemeinnützig anerkannt und steuerbefreit - Kanton Zürich",
     "transparency": "Transparenz garantiert - Jahresberichte & Budgets",
     "partners": "Partner"
   },
@@ -73,7 +73,7 @@
       "bio": "Esther Mrabu verfügt über 14 Jahre Erfahrung in Kilifi County, unter anderem im biologischen Moringa-Anbau, in der Outgrower-Betreuung und in Mikrofinanz-Schulungen. Sie leitet die Vuka Mama Initiative («Steh auf, Mutter» auf Swahili), eine frauengeführte Organisation, die im Weltbank-Projekt KEMFSED die Moringa-Produktion vor Ort betreut hat."
     },
     "legal": "Rechtliche Form",
-    "legalText": "Verein nach Art. 60 ff. ZGB | Sitz: Adliswil, Zürich | Gemeinnützigkeitsanerkennung in Bearbeitung"
+    "legalText": "Verein nach Art. 60 ff. ZGB | Sitz: Adliswil, Zürich | Gemeinnützig anerkannt und steuerbefreit"
   },
   "projectDetail": {
     "location": "Standort",
@@ -235,7 +235,7 @@
     "activityConcept": "Tätigkeitskonzept & Budget",
     "annualReport": "Jahresrechnung",
     "taxExemption": "Steuerbefreiung",
-    "taxStatus": "Status: Gesuch eingereicht beim Steueramt Zürich",
+    "taxStatus": "Status: Gemeinnützig anerkannt und steuerbefreit durch das Steueramt Zürich",
     "conflicts": "Partner & Interessenkonflikte",
     "conflictsText": "Wir führen ein Register gemäss Art. 6 Statuten",
     "compliance": "Kontrolle & Compliance",
@@ -270,7 +270,7 @@
     "bank": "Bank",
     "bankContact": "Bitte kontaktieren Sie uns für die Bankverbindung",
     "bankNote": "Bitte geben Sie das Projekt, das Sie unterstützen möchten, im Zahlungszweck an",
-    "taxDeduction": "Gemeinnützigkeitsanerkennung hängig – Kanton Zürich",
+    "taxDeduction": "Gemeinnützig anerkannt und steuerbefreit – Kanton Zürich",
     "taxDeductionNote": "Eine Spendenbestätigung wird für Ihre Steuererklärung ausgestellt"
   },
   "contactPage": {
@@ -284,7 +284,7 @@
     "org": "Organisation",
     "country": "Schweiz",
     "legalForm": "Rechtsform",
-    "legalFormText": "Verein gemäss Art. 60 ff. des Schweizerischen Zivilgesetzbuches (ZGB). Gesuch um Gemeinnützigkeitsanerkennung beim Steueramt des Kantons Zürich hängig.",
+    "legalFormText": "Verein gemäss Art. 60 ff. des Schweizerischen Zivilgesetzbuches (ZGB). Vom Steueramt des Kantons Zürich als gemeinnützig anerkannt und von der Steuerpflicht befreit.",
     "board": "Vorstand",
     "president": "Präsidentin",
     "member": "Vorstandsmitglied",
@@ -346,7 +346,7 @@
     "newsletterText": "Erhalten Sie Updates über unsere Projektfortschritte",
     "emailPlaceholder": "ihre@email.com",
     "trustSignals": {
-      "nonprofit": "Gemeinnützigkeitsanerkennung hängig",
+      "nonprofit": "Gemeinnützig anerkannt und steuerbefreit",
       "swiss": "Sitz in der Schweiz",
       "transparent": "Transparent & rechenschaftspflichtig"
     }

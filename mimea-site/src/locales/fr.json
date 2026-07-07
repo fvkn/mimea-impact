@@ -35,7 +35,7 @@
   },
   "trust": {
     "title": "Signaux de Confiance",
-    "nonprofit": "Reconnaissance d'utilité publique en cours - Canton de Zurich",
+    "nonprofit": "Reconnue d'utilité publique et exonérée d'impôts - Canton de Zurich",
     "transparency": "Transparence garantie - Rapports annuels & budgets",
     "partners": "Partenaires"
   },
@@ -73,7 +73,7 @@
       "bio": "Esther Mrabu possède 14 ans d'expérience dans le comté de Kilifi, notamment en culture biologique de Moringa, en accompagnement d'agriculteurs sous contrat et en formations en microfinance. Elle dirige la Vuka Mama Initiative (« Lève-toi, Mère » en swahili), une organisation dirigée par des femmes qui a géré la production de Moringa sur le terrain dans le cadre du projet Banque Mondiale KEMFSED."
     },
     "legal": "Forme Juridique",
-    "legalText": "Association selon art. 60 ss CC | Siège: Adliswil, Zurich | Reconnaissance d'utilité publique en cours"
+    "legalText": "Association selon art. 60 ss CC | Siège: Adliswil, Zurich | Reconnue d'utilité publique et exonérée d'impôts"
   },
   "projectDetail": {
     "location": "Localisation",
@@ -235,7 +235,7 @@
     "activityConcept": "Concept d'activité & Budget",
     "annualReport": "Rapport annuel",
     "taxExemption": "Exonération fiscale",
-    "taxStatus": "Statut: Demande déposée auprès de l'administration fiscale de Zurich",
+    "taxStatus": "Statut: Reconnue d'utilité publique et exonérée d'impôts par l'administration fiscale de Zurich",
     "conflicts": "Partenaires & Conflits d'intérêts",
     "conflictsText": "Nous tenons un registre conformément à l'art. 6 des Statuts",
     "compliance": "Contrôle & Conformité",
@@ -270,7 +270,7 @@
     "bank": "Banque",
     "bankContact": "Veuillez nous contacter pour les coordonnées bancaires",
     "bankNote": "Veuillez indiquer le projet que vous souhaitez soutenir dans la communication de paiement",
-    "taxDeduction": "Reconnaissance d'utilité publique en cours – Canton de Zurich",
+    "taxDeduction": "Reconnue d'utilité publique et exonérée d'impôts – Canton de Zurich",
     "taxDeductionNote": "Une attestation de don vous sera envoyée pour votre déclaration d'impôts"
   },
   "contactPage": {
@@ -284,7 +284,7 @@
     "org": "Organisation",
     "country": "Suisse",
     "legalForm": "Forme juridique",
-    "legalFormText": "Association au sens des art. 60 ss du Code civil suisse (CC). Demande de reconnaissance d'utilité publique en cours auprès de l'administration fiscale du canton de Zurich.",
+    "legalFormText": "Association au sens des art. 60 ss du Code civil suisse (CC). Reconnue d'utilité publique et exonérée d'impôts par l'administration fiscale du canton de Zurich.",
     "board": "Comité",
     "president": "Présidente",
     "member": "Membre du comité",
@@ -346,7 +346,7 @@
     "newsletterText": "Recevez des nouvelles sur nos progrès",
     "emailPlaceholder": "votre@email.com",
     "trustSignals": {
-      "nonprofit": "Reconnaissance d'utilité publique en cours",
+      "nonprofit": "Reconnue d'utilité publique et exonérée d'impôts",
       "swiss": "Siège en Suisse",
       "transparent": "Transparent & responsable"
     }

@@ -35,7 +35,7 @@
   },
   "trust": {
     "title": "Trust Signals",
-    "nonprofit": "Non-profit recognition application pending - Canton of Zurich",
+    "nonprofit": "Recognised as charitable and tax-exempt - Canton of Zurich",
     "transparency": "Transparency guaranteed - Annual reports & budgets",
     "partners": "Partners"
   },
@@ -73,7 +73,7 @@
       "bio": "Esther Mrabu has 14 years of experience in Kilifi County, including organic Moringa farming, outgrower support and microfinance training. She leads the Vuka Mama Initiative ('Stand up, Mother' in Swahili), a women-led organisation that managed on-the-ground Moringa production under the World Bank KEMFSED project."
     },
     "legal": "Legal Form",
-    "legalText": "Association under Art. 60 ff. Swiss Civil Code | Headquarters: Adliswil, Zurich | Non-profit recognition pending"
+    "legalText": "Association under Art. 60 ff. Swiss Civil Code | Headquarters: Adliswil, Zurich | Recognised as charitable and tax-exempt"
   },
   "projectDetail": {
     "location": "Location",
@@ -235,7 +235,7 @@
     "activityConcept": "Activity concept & Budget",
     "annualReport": "Annual report",
     "taxExemption": "Tax exemption",
-    "taxStatus": "Status: Application submitted to Zurich Tax Office",
+    "taxStatus": "Status: Recognised as charitable and tax-exempt by the Zurich Tax Office",
     "conflicts": "Partners & Conflicts of interest",
     "conflictsText": "We maintain a register in accordance with Art. 6 Statutes",
     "compliance": "Control & Compliance",
@@ -270,7 +270,7 @@
     "bank": "Bank",
     "bankContact": "Please contact us for bank details",
     "bankNote": "Please indicate the project you wish to support in the payment reference",
-    "taxDeduction": "Non-profit recognition pending – Canton of Zurich",
+    "taxDeduction": "Recognised as charitable and tax-exempt – Canton of Zurich",
     "taxDeductionNote": "A donation receipt will be issued for your tax declaration"
   },
   "contactPage": {
@@ -284,7 +284,7 @@
     "org": "Organisation",
     "country": "Switzerland",
     "legalForm": "Legal Form",
-    "legalFormText": "Association under Art. 60 ff. of the Swiss Civil Code (ZGB). Non-profit recognition application pending with the Canton of Zurich Tax Office.",
+    "legalFormText": "Association under Art. 60 ff. of the Swiss Civil Code (ZGB). Recognised as charitable and exempt from taxation by the Canton of Zurich Tax Office.",
     "board": "Board",
     "president": "President",
     "member": "Board Member",
@@ -346,7 +346,7 @@
     "newsletterText": "Receive updates on our project progress",
     "emailPlaceholder": "your@email.com",
     "trustSignals": {
-      "nonprofit": "Non-profit recognition pending",
+      "nonprofit": "Recognised as charitable and tax-exempt",
       "swiss": "Based in Switzerland",
       "transparent": "Transparent & accountable"
     }
