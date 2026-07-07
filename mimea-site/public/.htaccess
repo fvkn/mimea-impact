@@ -1,0 +1,16 @@
+# SPA fallback for Apache (Infomaniak hosting).
+# Serve real files/directories as-is; route everything else to index.html
+# so client-side routes like /projects or /projects/baeckerei work on direct
+# load and refresh.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Don't rewrite requests for existing files or directories
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Everything else -> index.html (React Router takes over in the browser)
+  RewriteRule ^ index.html [L]
+</IfModule>
