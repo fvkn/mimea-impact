@@ -20,6 +20,12 @@
     "projects": "Projets finançables",
     "years": "Volume du programme"
   },
+  "trust": {
+    "title": "Signaux de confiance",
+    "nonprofit": "Reconnue d'utilité publique et exonérée d'impôts",
+    "transparency": "Transparence garantie : rapports annuels et budgets",
+    "partners": "Partenaires"
+  },
   "projects": {
     "title": "Nos projets"
   },

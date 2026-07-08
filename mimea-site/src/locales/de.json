@@ -20,6 +20,12 @@
     "projects": "Förderbare Projekte",
     "years": "Programmvolumen"
   },
+  "trust": {
+    "title": "Vertrauenssignale",
+    "nonprofit": "Gemeinnützig anerkannt und steuerbefreit",
+    "transparency": "Transparenz garantiert: Jahresberichte und Budgets",
+    "partners": "Partner"
+  },
   "projects": {
     "title": "Unsere Projekte"
   },

@@ -20,6 +20,12 @@
     "projects": "Fundable projects",
     "years": "Programme volume"
   },
+  "trust": {
+    "title": "Trust Signals",
+    "nonprofit": "Recognised as charitable and tax-exempt",
+    "transparency": "Full transparency: annual reports and budgets",
+    "partners": "Partners"
+  },
   "projects": {
     "title": "Our Projects"
   },
