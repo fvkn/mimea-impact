@@ -36,11 +36,15 @@ jobs:
           SFTP_DIR: ${{ secrets.FTP_SERVER_DIR }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          # The SFTP user lands in the account home, so use a path relative to it
+          # (strip any leading slash from the configured server dir).
+          DIR="${SFTP_DIR#/}"
           # Infomaniak uses SFTP (SSH) on port 22. Upload-only mirror (no --delete)
           # so nothing on the server is removed; existing files are overwritten.
           lftp -c "
             set sftp:auto-confirm yes;
             set net:max-retries 2;
             open -u '$SFTP_USER','$SFTP_PASS' sftp://$SFTP_HOST:22;
-            mirror --reverse --verbose --exclude '\.tmb/' ./mimea-site/dist/ '$SFTP_DIR';
+            pwd;
+            mirror --reverse --verbose --exclude '\.tmb/' ./mimea-site/dist/ '$DIR';
           "
