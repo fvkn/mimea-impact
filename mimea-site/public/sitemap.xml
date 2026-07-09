@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.mimea-impact.ch/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mimea-impact.ch/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.mimea-impact.ch/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimea-impact.ch/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimea-impact.ch/"/>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/about</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mimea-impact.ch/about?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.mimea-impact.ch/about?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimea-impact.ch/about?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimea-impact.ch/about"/>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/projects</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mimea-impact.ch/projects?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.mimea-impact.ch/projects?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimea-impact.ch/projects?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimea-impact.ch/projects"/>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/projects/kinderernaehrung</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/projects/frauenfoerderung</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/projects/tierfutter</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/projects/baeckerei</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/projects/bioanbau</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/support</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mimea-impact.ch/support?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.mimea-impact.ch/support?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimea-impact.ch/support?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimea-impact.ch/support"/>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mimea-impact.ch/contact?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.mimea-impact.ch/contact?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mimea-impact.ch/contact?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mimea-impact.ch/contact"/>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/statutes</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/legal</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.mimea-impact.ch/privacy</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
