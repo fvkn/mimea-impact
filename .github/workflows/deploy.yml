@@ -43,7 +43,10 @@ jobs:
           # so nothing on the server is removed; existing files are overwritten.
           lftp -c "
             set sftp:auto-confirm yes;
-            set net:max-retries 2;
+            set dns:order 'inet';
+            set net:max-retries 3;
+            set net:timeout 20;
+            set net:reconnect-interval-base 5;
             open -u '$SFTP_USER','$SFTP_PASS' sftp://$SFTP_HOST:22;
             pwd;
             mirror --reverse --verbose --exclude '\.tmb/' ./mimea-site/dist/ '$DIR';
