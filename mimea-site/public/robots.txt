@@ -1,0 +1,5 @@
+# Mimea Impact — allow all crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mimea-impact.ch/sitemap.xml

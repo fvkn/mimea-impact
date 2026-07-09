@@ -15,18 +15,91 @@
     <meta property="og:url" content="https://www.mimea-impact.ch/" />
     <meta property="og:title" content="Mimea Impact | Développement Durable en Afrique de l'Est" />
     <meta property="og:description" content="Association suisse à but non lucratif dédiée au développement durable en Afrique de l'Est. Projets Moringa et Lumo+ pour la résilience climatique et la conservation." />
+    <meta property="og:image" content="https://www.mimea-impact.ch/about-hero.jpg" />
+    <meta property="og:site_name" content="Mimea Impact" />
+    <meta property="og:locale" content="fr_CH" />
+    <meta property="og:locale:alternate" content="de_CH" />
+    <meta property="og:locale:alternate" content="en" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://www.mimea-impact.ch/" />
     <meta property="twitter:title" content="Mimea Impact | Développement Durable en Afrique de l'Est" />
     <meta property="twitter:description" content="Association suisse à but non lucratif dédiée au développement durable en Afrique de l'Est. Projets Moringa et Lumo+ pour la résilience climatique et la conservation." />
+    <meta property="twitter:image" content="https://www.mimea-impact.ch/about-hero.jpg" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.mimea-impact.ch/" />
+
+    <!-- Robots: allow indexing and following -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- hreflang alternates (client-side router also emits these per route) -->
+    <link rel="alternate" hreflang="fr" href="https://www.mimea-impact.ch/?lang=fr" />
+    <link rel="alternate" hreflang="de" href="https://www.mimea-impact.ch/?lang=de" />
+    <link rel="alternate" hreflang="en" href="https://www.mimea-impact.ch/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://www.mimea-impact.ch/" />
+
+    <!-- Structured data: nonprofit organisation -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "name": "Mimea Impact",
+      "url": "https://www.mimea-impact.ch/",
+      "logo": "https://www.mimea-impact.ch/logo.svg",
+      "image": "https://www.mimea-impact.ch/about-hero.jpg",
+      "description": "Association suisse à but non lucratif dédiée au développement durable au Kenya : moyens de subsistance résilients au climat, sécurité alimentaire et protection de la nature à travers des projets portés par les communautés.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CH"
+      },
+      "areaServed": "KE",
+      "nonprofitStatus": "NonprofitType"
+    }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!--
+        Static fallback content. React replaces this on mount, but it gives
+        crawlers (and users without JavaScript) real content and internal
+        links to follow before the SPA hydrates.
+      -->
+      <div style="max-width:48rem;margin:0 auto;padding:2rem 1.5rem;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;color:#1f2937">
+        <img src="/logo.svg" alt="Mimea Impact" width="180" height="48" style="height:48px;width:auto" />
+        <h1>Mimea Impact — Développement durable au Kenya</h1>
+        <p>
+          Mimea Impact est une association suisse à but non lucratif. Nous favorisons des
+          moyens de subsistance résilients au climat, la sécurité alimentaire et la protection
+          de la nature à travers des projets intégrés et portés par les communautés en Afrique
+          de l'Est.
+        </p>
+        <h2>Nos projets</h2>
+        <ul>
+          <li><a href="/projects/kinderernaehrung">Nutrition infantile</a></li>
+          <li><a href="/projects/frauenfoerderung">Promotion des femmes</a></li>
+          <li><a href="/projects/tierfutter">Alimentation animale</a></li>
+          <li><a href="/projects/baeckerei">Boulangerie</a></li>
+          <li><a href="/projects/bioanbau">Agriculture biologique</a></li>
+        </ul>
+        <h2>Navigation</h2>
+        <nav>
+          <a href="/">Accueil</a> ·
+          <a href="/about">À propos</a> ·
+          <a href="/projects">Projets</a> ·
+          <a href="/support">Faire un don</a> ·
+          <a href="/contact">Contact</a> ·
+          <a href="/statutes">Statuts</a> ·
+          <a href="/legal">Mentions légales</a> ·
+          <a href="/privacy">Confidentialité</a>
+        </nav>
+        <noscript>
+          <p>Ce site nécessite JavaScript pour l'expérience complète. Les liens ci-dessus
+          restent accessibles.</p>
+        </noscript>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
