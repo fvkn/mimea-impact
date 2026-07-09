@@ -5,14 +5,14 @@
     "projects": "Projects",
     "impact": "Impact",
     "transparency": "Transparency",
-    "support": "Support",
+    "support": "Donate",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Sustainable development through local value creation in Africa",
+    "title": "Sustainable development through local value creation in Kenya",
     "subtitle": "We promote climate-resilient livelihoods, food security and nature conservation through integrated, community-led projects",
     "cta1": "Discover the projects",
-    "cta2": "Support now"
+    "cta2": "Donate now"
   },
   "stats": {
     "households": "People reached",
@@ -34,6 +34,7 @@
     "programLabel": "Moringa Circular Economy Programme · Kilifi County, Kenya",
     "lead": "One programme, five independent projects. Each stands on its own and can be funded individually or together.",
     "intro": "In Kilifi County on the Kenyan coast, Mimea Impact is building a holistic livelihoods programme centred on the Moringa plant. Rather than one single large project, we have structured the programme into five clearly defined projects. This lets foundations take on a whole project while private donors can contribute any amount.",
+    "povertyNote": "Kilifi County is one of the poorest regions in Kenya, even by African standards. Contrary to a common assumption, Kenya is not a wealthy country, and poverty here runs deep.",
     "chooseTitle": "Choose a project",
     "chooseText": "Each project shows transparently what it costs, whom it reaches and what it achieves.",
     "cardTargetGroup": "Target group",
@@ -73,14 +74,14 @@
     },
     "frauenfoerderung": {
       "title": "Women's Empowerment",
-      "tagline": "A women-led workshop for natural cosmetics made from Moringa.",
+      "tagline": "A women-led workshop for traditional care products made from Moringa.",
       "heroSubtitle": "Independent income and entrepreneurial skills for 40 women.",
       "targetGroup": "40 women from several CIGs",
       "timeframe": "Production within 6 months (from month 18)",
       "challengeTitle": "The problem",
       "challenge": "47.5% of women in rural Kilifi live below the poverty line. They carry the main responsibility for the family yet have only limited access to their own income and vocational training.",
       "whatTitle": "What the project does",
-      "what": "A women-led production workshop makes soaps, body oils, balms and natural cosmetics based on Moringa seed oil (Ben oil), a high-quality, skin-nourishing raw material. The women are trained in oil extraction, soap making, quality control, packaging and business management. The products are sold through local markets, tourism shops along the Kilifi County coast and community networks.",
+      "what": "A women-led production workshop makes soaps, body oils, balms and traditional care products based on Moringa seed oil (Ben oil), a high-quality, skin-nourishing raw material. The women are trained in oil extraction, soap making, quality control, packaging and business management. The products are sold through local markets, tourism shops along the Kilifi County coast and community networks.",
       "resultsTitle": "What your funding achieves",
       "results": [
         "40 women trained in production and business management",
@@ -173,7 +174,7 @@
     "sharedText": "This project is part of the Moringa Circular Economy in Kilifi County. It is implemented together with the women-led Vuka Mama Initiative and proven under the World Bank programme KEMFSED.",
     "ctaTitle": "Support this project",
     "ctaText": "Foundations can take on the whole project, while private donors can contribute any amount.",
-    "ctaButton": "Support now",
+    "ctaButton": "Donate now",
     "otherProjects": "More projects"
   },
   "about": {
@@ -188,7 +189,7 @@
     "value3": "Scientific Foundation",
     "value4": "Transparency & Accountability",
     "board": "Board",
-    "boardIntro": "Our board brings diverse expertise in governance, law and international project management.",
+    "boardIntro": "Our board brings diverse expertise in governance, law, international project management, and the social and non-profit sector.",
     "boardMembers": {
       "president": "Evelyn Graf",
       "presidentRole": "President",
@@ -197,8 +198,8 @@
       "member2": "Thomas Wegmann",
       "member2Role": "Board member"
     },
-    "team": "Project Team",
-    "teamIntro": "Our field team combines academic expertise with deep local knowledge for effective and culturally appropriate implementation.",
+    "team": "Team on the Ground",
+    "teamIntro": "Our team on the ground combines academic expertise with deep local knowledge for effective and culturally appropriate implementation.",
     "teamMember1": {
       "name": "Fabrice Volken, MSc ETH",
       "role": "Project Lead",
@@ -241,7 +242,7 @@
     "safeguarding": "Safeguarding standards"
   },
   "supportPage": {
-    "title": "Support",
+    "title": "Donate",
     "directDonation": "Donate directly",
     "partnership": "Partnership",
     "partnershipText": "Would you like to fund a specific project or take on a whole one? Let's talk.",
@@ -262,8 +263,9 @@
     "qrTitle": "Pay by e-banking",
     "qrText": "Scan the QR code with your banking app and enter the amount you wish to give.",
     "bankNote": "Please indicate the project you wish to support in the payment reference",
-    "taxDeduction": "Recognised as charitable and tax-exempt in the Canton of Zurich",
-    "taxDeductionNote": "A donation receipt will be issued for your tax return"
+    "taxDeductible": "Your donation can be deducted from your tax return.",
+    "taxDeduction": "Recognised as charitable and tax-exempt",
+    "taxDeductionNote": "You will automatically receive a donation receipt."
   },
   "contactPage": {
     "address": "Address",

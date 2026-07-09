@@ -5,14 +5,14 @@
     "projects": "Projekte",
     "impact": "Wirkung",
     "transparency": "Transparenz",
-    "support": "Unterstützen",
+    "support": "Spenden",
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Nachhaltige Entwicklung durch lokale Wertschöpfung in Afrika",
+    "title": "Nachhaltige Entwicklung durch lokale Wertschöpfung in Kenia",
     "subtitle": "Wir fördern klimaresiliente Lebensgrundlagen, Ernährungssicherheit und Naturschutz durch integrierte, gemeinschaftsgetragene Projekte",
     "cta1": "Projekte entdecken",
-    "cta2": "Jetzt unterstützen"
+    "cta2": "Jetzt spenden"
   },
   "stats": {
     "households": "Menschen erreicht",
@@ -34,6 +34,7 @@
     "programLabel": "Programm Moringa-Kreislaufwirtschaft · Kilifi County, Kenia",
     "lead": "Ein Programm, fünf eigenständige Projekte. Jedes wirkt für sich und lässt sich einzeln oder gemeinsam finanzieren.",
     "intro": "Mimea Impact baut in Kilifi County an der kenianischen Küste ein ganzheitliches Lebensgrundlagen-Programm rund um die Moringa-Pflanze auf. Statt eines einzigen Grossprojekts haben wir das Programm in fünf klar umrissene Projekte gegliedert. So können Stiftungen ein ganzes Projekt übernehmen und private Spenderinnen und Spender jeden beliebigen Betrag beisteuern.",
+    "povertyNote": "Kilifi County gehört zu den ärmsten Regionen Kenias, selbst im afrikanischen Vergleich. Entgegen einer verbreiteten Annahme ist Kenia kein wohlhabendes Land, und die Armut ist hier tief verwurzelt.",
     "chooseTitle": "Wählen Sie ein Projekt",
     "chooseText": "Jedes Projekt zeigt transparent, was es kostet, wen es erreicht und was es bewirkt.",
     "cardTargetGroup": "Zielgruppe",
@@ -73,14 +74,14 @@
     },
     "frauenfoerderung": {
       "title": "Frauenförderung",
-      "tagline": "Eine frauengeführte Werkstatt für Naturkosmetik aus Moringa.",
+      "tagline": "Eine frauengeführte Werkstatt für traditionelle Pflegeprodukte aus Moringa.",
       "heroSubtitle": "Eigenes Einkommen und unternehmerische Kompetenz für 40 Frauen.",
       "targetGroup": "40 Frauen aus mehreren CIGs",
       "timeframe": "Produktion innerhalb von 6 Monaten (ab Monat 18)",
       "challengeTitle": "Das Problem",
       "challenge": "47,5 % der Frauen im ländlichen Kilifi leben unter der Armutsgrenze. Sie tragen die Hauptverantwortung für die Familie, haben aber nur eingeschränkten Zugang zu eigenem Einkommen und beruflicher Weiterbildung.",
       "whatTitle": "Was das Projekt tut",
-      "what": "Eine frauengeführte Produktionswerkstatt stellt Seifen, Körperöle, Balsame und Naturkosmetik auf Basis von Moringa-Samenöl (Ben-Öl) her, einem hochwertigen, hautpflegenden Rohstoff. Die Frauen werden in Ölgewinnung, Seifenherstellung, Qualitätskontrolle, Verpackung und Geschäftsführung geschult. Vertrieben werden die Produkte über lokale Märkte, Tourismusgeschäfte an der Küste von Kilifi County und über Gemeinschaftsnetzwerke.",
+      "what": "Eine frauengeführte Produktionswerkstatt stellt Seifen, Körperöle, Balsame und traditionelle Pflegeprodukte auf Basis von Moringa-Samenöl (Ben-Öl) her, einem hochwertigen, hautpflegenden Rohstoff. Die Frauen werden in Ölgewinnung, Seifenherstellung, Qualitätskontrolle, Verpackung und Geschäftsführung geschult. Vertrieben werden die Produkte über lokale Märkte, Tourismusgeschäfte an der Küste von Kilifi County und über Gemeinschaftsnetzwerke.",
       "resultsTitle": "Was Ihre Förderung bewirkt",
       "results": [
         "40 Frauen in Produktion und Unternehmensführung geschult",
@@ -173,7 +174,7 @@
     "sharedText": "Dieses Projekt ist Teil der Moringa-Kreislaufwirtschaft in Kilifi County. Umgesetzt wird es gemeinsam mit der frauengeführten Vuka Mama Initiative, erprobt unter dem Weltbank-Programm KEMFSED.",
     "ctaTitle": "Dieses Projekt unterstützen",
     "ctaText": "Stiftungen können das ganze Projekt übernehmen, private Spenderinnen und Spender jeden Betrag beisteuern.",
-    "ctaButton": "Jetzt unterstützen",
+    "ctaButton": "Jetzt spenden",
     "otherProjects": "Weitere Projekte"
   },
   "about": {
@@ -188,7 +189,7 @@
     "value3": "Wissenschaftliche Fundierung",
     "value4": "Transparenz & Rechenschaftspflicht",
     "board": "Vorstand",
-    "boardIntro": "Unser Vorstand bringt vielfältige Expertise in Governance, Recht und internationalem Projektmanagement ein.",
+    "boardIntro": "Unser Vorstand bringt vielfältige Expertise in Governance, Recht, internationalem Projektmanagement sowie im sozialen und gemeinnützigen Bereich ein.",
     "boardMembers": {
       "president": "Evelyn Graf",
       "presidentRole": "Präsidentin",
@@ -197,8 +198,8 @@
       "member2": "Thomas Wegmann",
       "member2Role": "Vorstandsmitglied"
     },
-    "team": "Projekt-Team",
-    "teamIntro": "Unser Feldteam kombiniert akademische Expertise mit tiefgreifender lokaler Kenntnis für eine effektive und kulturell angepasste Umsetzung.",
+    "team": "Team vor Ort",
+    "teamIntro": "Unser Team vor Ort kombiniert akademische Expertise mit tiefgreifender lokaler Kenntnis für eine effektive und kulturell angepasste Umsetzung.",
     "teamMember1": {
       "name": "Fabrice Volken, MSc ETH",
       "role": "Projektleiter",
@@ -241,7 +242,7 @@
     "safeguarding": "Safeguarding-Standards"
   },
   "supportPage": {
-    "title": "Unterstützen",
+    "title": "Spenden",
     "directDonation": "Direkt spenden",
     "partnership": "Partnerschaft",
     "partnershipText": "Sie möchten gezielt fördern oder ein ganzes Projekt übernehmen? Sprechen wir darüber.",
@@ -262,8 +263,9 @@
     "qrTitle": "Mit E-Banking bezahlen",
     "qrText": "Scannen Sie den QR-Code mit Ihrer Banking-App und geben Sie den gewünschten Betrag ein.",
     "bankNote": "Bitte geben Sie das Projekt, das Sie unterstützen möchten, im Zahlungszweck an",
-    "taxDeduction": "Gemeinnützig anerkannt und steuerbefreit im Kanton Zürich",
-    "taxDeductionNote": "Eine Spendenbestätigung wird für Ihre Steuererklärung ausgestellt"
+    "taxDeductible": "Ihre Spende kann bei der Steuererklärung in Abzug gebracht werden.",
+    "taxDeduction": "Gemeinnützig anerkannt und steuerbefreit",
+    "taxDeductionNote": "Eine Spendenbestätigung erhalten Sie automatisch."
   },
   "contactPage": {
     "address": "Adresse",

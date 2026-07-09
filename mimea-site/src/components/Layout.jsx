@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Leaf, Menu, X, Languages, Mail } from 'lucide-react';
+import { Leaf, Menu, X, Languages, Mail, Heart } from 'lucide-react';
 import useSEO from '../hooks/useSEO';
 
 const COLORS = {
@@ -114,7 +114,8 @@ const Layout = ({ children }) => {
               )}
             </div>
 
-            <Link to="/support" className="bg-ochre text-white px-6 py-2 rounded-lg text-sm font-bold hover:opacity-90 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            <Link to="/support" className="bg-ochre text-white px-6 py-2.5 rounded-lg text-sm font-bold flex items-center gap-2 shadow-lg shadow-ochre/40 hover:opacity-90 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <Heart size={16} className="fill-white" />
               {t('nav.support')}
             </Link>
           </div>
@@ -137,7 +138,7 @@ const Layout = ({ children }) => {
             <button onClick={() => { changeLanguage('fr'); setIsMenuOpen(false); }} className={`px-4 py-2 rounded-lg ${i18n.language === 'fr' ? 'bg-ochre text-white' : 'bg-gray-100'}`}>FR</button>
             <button onClick={() => { changeLanguage('en'); setIsMenuOpen(false); }} className={`px-4 py-2 rounded-lg ${i18n.language === 'en' ? 'bg-ochre text-white' : 'bg-gray-100'}`}>EN</button>
           </div>
-          <Link to="/support" onClick={() => setIsMenuOpen(false)} className="bg-ochre text-white px-8 py-3 rounded-lg font-bold">{t('nav.support')}</Link>
+          <Link to="/support" onClick={() => setIsMenuOpen(false)} className="bg-ochre text-white px-8 py-3 rounded-lg font-bold flex items-center gap-2 shadow-lg"><Heart size={18} className="fill-white" />{t('nav.support')}</Link>
         </div>
       )}
 

@@ -94,10 +94,12 @@ const Support = () => {
 
       {/* Tax Deduction Info */}
       <section className="py-12 bg-[#F9F8F4] border-t border-gray-200">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <Award className="w-10 h-10 text-[#D4A056] mx-auto mb-4" />
-          <p className="text-gray-700 font-medium">{t('supportPage.taxDeduction')}</p>
-          <p className="text-sm text-gray-600 mt-2">{t('supportPage.taxDeductionNote')}</p>
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white rounded-2xl p-8 text-center shadow-lg">
+            <Award className="w-12 h-12 text-[#D4A056] mx-auto mb-4" />
+            <p className="text-2xl md:text-3xl font-bold mb-3">{t('supportPage.taxDeductible')}</p>
+            <p className="text-white/90">{t('supportPage.taxDeduction')}. {t('supportPage.taxDeductionNote')}</p>
+          </div>
         </div>
       </section>
     </div>

@@ -22,8 +22,11 @@ const Projects = () => {
 
       {/* Intro */}
       <section className="py-16 bg-white">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-lg text-gray-700 leading-relaxed">{t('projectsPage.intro')}</p>
+        <div className="max-w-3xl mx-auto px-6">
+          <p className="text-lg text-gray-700 leading-relaxed text-center">{t('projectsPage.intro')}</p>
+          <div className="mt-8 bg-gradient-to-br from-[#2C4A3B] to-[#1a2b23] text-white rounded-2xl p-6 border-l-4 border-[#D4A056]">
+            <p className="font-semibold leading-relaxed">{t('projectsPage.povertyNote')}</p>
+          </div>
         </div>
       </section>
 

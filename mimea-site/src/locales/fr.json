@@ -5,14 +5,14 @@
     "projects": "Projets",
     "impact": "Impact",
     "transparency": "Transparence",
-    "support": "Soutenir",
+    "support": "Faire un don",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Développement durable par la création de valeur locale en Afrique",
+    "title": "Développement durable par la création de valeur locale au Kenya",
     "subtitle": "Nous favorisons des moyens de subsistance résilients au climat, la sécurité alimentaire et la protection de la nature à travers des projets intégrés et portés par les communautés",
     "cta1": "Découvrir les projets",
-    "cta2": "Soutenir maintenant"
+    "cta2": "Faire un don"
   },
   "stats": {
     "households": "Personnes atteintes",
@@ -34,6 +34,7 @@
     "programLabel": "Programme d'économie circulaire Moringa · Kilifi County, Kenya",
     "lead": "Un programme, cinq projets autonomes. Chacun agit par lui-même et peut être financé individuellement ou ensemble.",
     "intro": "À Kilifi County, sur la côte kényane, Mimea Impact met en place un programme global de moyens de subsistance centré sur la plante Moringa. Plutôt qu'un seul grand projet, nous avons structuré le programme en cinq projets clairement définis. Ainsi, les fondations peuvent prendre en charge un projet entier tandis que les donatrices et donateurs privés peuvent contribuer à hauteur de n'importe quel montant.",
+    "povertyNote": "Kilifi County est l'une des régions les plus pauvres du Kenya, même à l'échelle africaine. Contrairement à une idée répandue, le Kenya n'est pas un pays riche, et la pauvreté y est profondément ancrée.",
     "chooseTitle": "Choisissez un projet",
     "chooseText": "Chaque projet montre en toute transparence ce qu'il coûte, qui il atteint et ce qu'il permet d'accomplir.",
     "cardTargetGroup": "Groupe cible",
@@ -73,14 +74,14 @@
     },
     "frauenfoerderung": {
       "title": "Autonomisation des femmes",
-      "tagline": "Un atelier dirigé par des femmes pour des cosmétiques naturels à base de Moringa.",
+      "tagline": "Un atelier dirigé par des femmes pour des produits de soin traditionnels à base de Moringa.",
       "heroSubtitle": "Un revenu propre et des compétences entrepreneuriales pour 40 femmes.",
       "targetGroup": "40 femmes de plusieurs CIG",
       "timeframe": "Production sous 6 mois (à partir du mois 18)",
       "challengeTitle": "Le problème",
       "challenge": "47,5 % des femmes du Kilifi rural vivent sous le seuil de pauvreté. Elles portent la responsabilité principale de la famille mais n'ont qu'un accès limité à un revenu propre et à la formation professionnelle.",
       "whatTitle": "Ce que fait le projet",
-      "what": "Un atelier de production dirigé par des femmes fabrique des savons, des huiles corporelles, des baumes et des cosmétiques naturels à base d'huile de graines de Moringa (huile de Ben), une matière première de haute qualité et nourrissante pour la peau. Les femmes sont formées à l'extraction d'huile, à la fabrication de savon, au contrôle qualité, à l'emballage et à la gestion d'entreprise. Les produits sont vendus sur les marchés locaux, dans les boutiques touristiques de la côte de Kilifi County et via les réseaux communautaires.",
+      "what": "Un atelier de production dirigé par des femmes fabrique des savons, des huiles corporelles, des baumes et des produits de soin traditionnels à base d'huile de graines de Moringa (huile de Ben), une matière première de haute qualité et nourrissante pour la peau. Les femmes sont formées à l'extraction d'huile, à la fabrication de savon, au contrôle qualité, à l'emballage et à la gestion d'entreprise. Les produits sont vendus sur les marchés locaux, dans les boutiques touristiques de la côte de Kilifi County et via les réseaux communautaires.",
       "resultsTitle": "Ce que votre soutien permet",
       "results": [
         "40 femmes formées à la production et à la gestion d'entreprise",
@@ -173,7 +174,7 @@
     "sharedText": "Ce projet fait partie de l'économie circulaire Moringa à Kilifi County. Il est mis en œuvre avec la Vuka Mama Initiative, dirigée par des femmes, et éprouvé dans le cadre du programme KEMFSED de la Banque mondiale.",
     "ctaTitle": "Soutenir ce projet",
     "ctaText": "Les fondations peuvent prendre en charge le projet entier, tandis que les donatrices et donateurs privés peuvent contribuer à hauteur de n'importe quel montant.",
-    "ctaButton": "Soutenir maintenant",
+    "ctaButton": "Faire un don",
     "otherProjects": "Autres projets"
   },
   "about": {
@@ -188,7 +189,7 @@
     "value3": "Fondement scientifique",
     "value4": "Transparence et responsabilité",
     "board": "Comité",
-    "boardIntro": "Notre comité apporte une expertise diversifiée en gouvernance, en droit et en gestion de projets internationaux.",
+    "boardIntro": "Notre comité apporte une expertise diversifiée en gouvernance, en droit, en gestion de projets internationaux ainsi que dans le domaine social et à but non lucratif.",
     "boardMembers": {
       "president": "Evelyn Graf",
       "presidentRole": "Présidente",
@@ -197,8 +198,8 @@
       "member2": "Thomas Wegmann",
       "member2Role": "Membre du comité"
     },
-    "team": "Équipe de projet",
-    "teamIntro": "Notre équipe de terrain associe expertise académique et connaissance locale approfondie pour une mise en œuvre efficace et culturellement adaptée.",
+    "team": "Équipe sur place",
+    "teamIntro": "Notre équipe sur place associe expertise académique et connaissance locale approfondie pour une mise en œuvre efficace et culturellement adaptée.",
     "teamMember1": {
       "name": "Fabrice Volken, MSc ETH",
       "role": "Responsable de projet",
@@ -241,7 +242,7 @@
     "safeguarding": "Normes de sauvegarde"
   },
   "supportPage": {
-    "title": "Soutenir",
+    "title": "Faire un don",
     "directDonation": "Faire un don direct",
     "partnership": "Partenariat",
     "partnershipText": "Vous souhaitez soutenir un projet précis ou en prendre un entièrement en charge ? Parlons-en.",
@@ -262,8 +263,9 @@
     "qrTitle": "Payer par e-banking",
     "qrText": "Scannez le code QR avec votre application bancaire, puis indiquez le montant de votre choix.",
     "bankNote": "Veuillez indiquer le projet que vous souhaitez soutenir dans le motif du paiement",
-    "taxDeduction": "Reconnue d'utilité publique et exonérée d'impôts dans le canton de Zurich",
-    "taxDeductionNote": "Une attestation de don sera délivrée pour votre déclaration d'impôts"
+    "taxDeductible": "Votre don est déductible de votre déclaration d'impôts.",
+    "taxDeduction": "Reconnue d'utilité publique et exonérée d'impôts",
+    "taxDeductionNote": "Vous recevrez automatiquement une attestation de don."
   },
   "contactPage": {
     "address": "Adresse",
